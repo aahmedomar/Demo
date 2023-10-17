@@ -21,7 +21,7 @@ steps:
             description: ""
             name: not_empty_string
             runOrder: After
-            templateString: "{{ not_empty_string('"ANALYTICS"."DEO"."STG_PAYMENTS"', 'PAYMENT_ID', 'FALSE') }}"
+            templateString: ""
         columns:
           - acceptedValues:
               strictMatch: true

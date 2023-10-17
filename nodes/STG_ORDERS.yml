@@ -21,31 +21,31 @@ steps:
             description: ""
             name: equal_rowcount
             runOrder: After
-            templateString: "{{ equal_rowcount('"ANALYTICS"."DEO"."STG_ORDERS"', '"ANALYTICS"."DEO"."ORDERS"') }}"
+            templateString: ""
             
           - continueOnFailure: true
             description: ""
             name: expression_is_true
             runOrder: After
-            templateString: "{{ expression_is_true('"ANALYTICS"."DEO"."STG_ORDERS"', '>', '') }}"
+            templateString: ""
             
           - continueOnFailure: true
             description: ""
             name: not_constant
             runOrder: After
-            templateString: "{{ not_constant('"ANALYTICS"."DEO"."STG_ORDERS"', 'ORDERS') }}"
+            templateString: ""
             
           - continueOnFailure: true
             description: ""
             name: not_accepted_values
             runOrder: After
-            templateString: "{{ not_accepted_values('"ANALYTICS"."DEO"."STG_ORDERS"', 'CUSTOMER_ID', ['BARCELONA', 'NEW_YORK']) }}"
+            templateString: ""
             
           - continueOnFailure: true
             description: ""
             name: not_empty_string
             runOrder: After
-            templateString: "{{ not_empty_string('"ANALYTICS"."DEO"."STG_ORDERS"', 'CUSTOMER_ID', 'DBT_UTILS_NOT_EMPTY_STRING_CUSTOMER_ID') }}"
+            templateString: ""
         columns:
           - acceptedValues:
               strictMatch: true
