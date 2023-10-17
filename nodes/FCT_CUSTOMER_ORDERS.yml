@@ -1,0 +1,383 @@
+steps:
+  FCT_CUSTOMER_ORDERS-8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationName: DEO
+      materializationType: "model"
+      metadata:
+        appliedNodeTests:
+        columns: 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: false
+            isDistinct: true
+          columnReference:
+            columnCounter: 65623ee2fec787f06846bbb8f89a37ca93c00c26f986360bb7e5fcf46880ef50
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: ORDER_ID
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 686eb5855f4c6dab4d6662a0b64ad5e6b9be123b83a4673011a3e32e1d16028a
+              stepCounter: f1cdd946e64d2e9c2d5b8e9757b9abd9729ebd1def19387f98ea237f6ad5cf01
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: false
+            isDistinct: true
+          columnReference:
+            columnCounter: 13a62c824ce5cca0abd58a18257d8e6cf516e5edf45f2efb64054e1b1207ed05
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: ORDER_ID
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 686eb5855f4c6dab4d6662a0b64ad5e6b9be123b83a4673011a3e32e1d16028a
+              stepCounter: f1cdd946e64d2e9c2d5b8e9757b9abd9729ebd1def19387f98ea237f6ad5cf01
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 0dc34b245d96ffa5bc7e4bb30b33a6f353e7a0fe27b42920ff0e79dce0b5510a
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: CUSTOMER_ID
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 7b30e2a50339d0edb33b0e93f95d6ead89a9d4bf0333d2e63d9ff6c3ca651e7f
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: c81c936e0c6bea78c07873df50148c0ddba3df95ff01e796ceb47ce03216aabc
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: ORDER_PLACED_AT
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 571de90c8099c8b9595839afcb6202bf727e46048b3788b925c99c1d3ff5ae60
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: ORDER_STATUS
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: f89154da6049f91ed5f5b20c5ac193e293e81f661e6626da4581555432ac0cd8
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: TOTAL_AMOUNT_PAID
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 16da3c5c55b448eb39884d1e8630a3ea020f816d9ecc57adb385a2a8bb51f23e
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: PAYMENT_FINALIZED_DATE
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: f0baa5dd382a55b91fff2966d00f1a68852a749b22c8cca4c784e4bea013a0a0
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: CUSTOMER_FIRST_NAME
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 576c5729889edd59bf67bd394d94e85573024b4b46c31b4bc454fd699dbde03b
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: CUSTOMER_LAST_NAME
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: d1b64c848b1feea5e434200062084aa1822efe5c020167612418acc1b04c06dd
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: TRANSACTION_SEQ
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 274c76201f4cd6871af7d0970f1a172f84a83efadf93435c6d41acda8d110aa5
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: CUSTOMER_SALES_SEQ
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 967f3db163dd4221819f826e797b8773f70266dd6c32dda992a9f2d7948dafbb
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: NVSR
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: f2004443c4f51c439bf9277594dc81beb96a013822b3e693ad49fecd8fc63894
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: CUSTOMER_LIFETIME_VALUE
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 6748bdee83d02ddb7bdeaab13daecb16e8fe09446587083e3aeab65066731750
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: FDOS
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: ""
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          config:
+          dataType: TIMESTAMP
+          defaultValue: ""
+          description: ""
+          hashColumns: []
+          isSystemCreateDate: true
+          name: SYSTEM_CREATE_DATE
+          nullable: true
+          sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          config:
+          dataType: TIMESTAMP
+          defaultValue: ""
+          description: ""
+          hashColumns: []
+          isSystemUpdateDate: true
+          name: SYSTEM_UPDATE_DATE
+          nullable: true
+          sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        - acceptedValues:
+            strictMatch: false
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: cfd6bd03-9b3b-4f64-abf0-808501813d4e
+            stepCounter: a86f7584-202d-4d2d-b638-5448ef0bdc29
+          dataType: NUMBER(12,2)
+          description: ""
+          name: PS_SUPPLYCOST
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 4ffeb866-ed69-46bc-a17b-514b658768a7
+              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
+            transform: ""
+        - acceptedValues:
+            strictMatch: false
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da
+          dataType: NUMBER(38,0)
+          description: ""
+          name: PS_AVAILQTY
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: b98fb5d0-f185-4803-9cc6-b05173f5cd75
+              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
+            transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+        - customSQL:
+            customSQL: ""
+          dependencies:
+          - locationName: DEO
+            nodeName: CTE_ORDER_PAYMENTS_1
+          join:
+            joinCondition: FROM { ref(DEO, CTE_ORDER_PAYMENTS_1) } "CTE_ORDER_PAYMENTS_1"
+          name: FCT_CUSTOMER_ORDERS
+          noLinkRefs: []
+      name: FCT_CUSTOMER_ORDERS
+      overrideSQL: false
+      schema: ""
+      sqlType: Fact
+      type: sql
+    stepCounter: 8a11e4318afcbf6a5df06e4b7b01632b705a1ce3ae0114531836dd8aafc760da

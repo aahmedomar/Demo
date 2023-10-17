@@ -1,0 +1,183 @@
+steps:
+  FCT_EXPOSURE_PARENTS_MATERIALIZATIONS-6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationName: DEO
+      materializationType: table
+      metadata:
+        appliedNodeTests:
+        columns: 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 799f016064ff51dea5a303dcaf5362caf30529a95fbfdd1d8048802490356ffd
+            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: PARENT_RESOURCE_TYPE
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 0d2985bd23c797c433582c04597e9d1b84ecd013ba1fc9d324432d81bdf84701
+            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: PARENT_RESOURCE_NAME
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 4e948d58bdf2be858e256320a4896951bbdcd4c38e83bf4fc3e246fae8793143
+            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: EXPOSURE_NAME
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: bba467a1c3b4d879a283d4e9cf19e3746b492a7affbc9c60912438e7b553f176
+            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: PARENT_MODEL_MATERIALIZATION
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: ""
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+          config:
+          dataType: TIMESTAMP
+          defaultValue: ""
+          description: ""
+          hashColumns: []
+          isSystemCreateDate: true
+          name: SYSTEM_CREATE_DATE
+          nullable: true
+          sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+          config:
+          dataType: TIMESTAMP
+          defaultValue: ""
+          description: ""
+          hashColumns: []
+          isSystemUpdateDate: true
+          name: SYSTEM_UPDATE_DATE
+          nullable: true
+          sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        - acceptedValues:
+            strictMatch: false
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: cfd6bd03-9b3b-4f64-abf0-808501813d4e
+            stepCounter: a86f7584-202d-4d2d-b638-5448ef0bdc29
+          dataType: NUMBER(12,2)
+          description: ""
+          name: PS_SUPPLYCOST
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 4ffeb866-ed69-46bc-a17b-514b658768a7
+              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
+            transform: ""
+        - acceptedValues:
+            strictMatch: false
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+          dataType: NUMBER(38,0)
+          description: ""
+          name: PS_AVAILQTY
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: b98fb5d0-f185-4803-9cc6-b05173f5cd75
+              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
+            transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+        - customSQL:
+            customSQL: ""
+          dependencies:
+          - locationName: DEO
+            nodeName: RS_4
+          join:
+            joinCondition: FROM { ref(DEO, RS_4) } "RS_4"
+          name: FCT_EXPOSURE_PARENTS_MATERIALIZATIONS
+          noLinkRefs: []
+      name: FCT_EXPOSURE_PARENTS_MATERIALIZATIONS
+      overrideSQL: false
+      schema: ""
+      sqlType: Fact
+      type: sql
+    stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380

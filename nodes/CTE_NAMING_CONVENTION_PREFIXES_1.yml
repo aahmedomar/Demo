@@ -1,0 +1,121 @@
+steps:
+  CTE_NAMING_CONVENTION_PREFIXES_1-e91f8c3d2be59687686b084931c46db98c223a942757cb48aca32b009a3018ba:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+          - continueOnFailure: true
+            description: ""
+            name: Test
+            runOrder: After
+            templateString: ""
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: ef51301047c9df2942089b129fdfeeb6505f037bccc4207c810769eb3ee351af
+              stepCounter: e91f8c3d2be59687686b084931c46db98c223a942757cb48aca32b009a3018ba
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 389a8cc8020a77d8671da67daae3a3bce7ec58f17636c82a2c7bc8b04da64bd3
+                stepCounter: c8d10200e6224d1c6e623a011465fd83187ab70a454cae172618234d9d48df2b
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: a61cf87387e2f85834ac0b8936df18ed5d451abf5a2c25e9342d82722ab0b2df
+              stepCounter: e91f8c3d2be59687686b084931c46db98c223a942757cb48aca32b009a3018ba
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PREFIX_VALUE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 36b0d9455e4d7ed21a52b7e941d07b536985c3ff18ab3a1d4c82b176f973eab4
+                stepCounter: c8d10200e6224d1c6e623a011465fd83187ab70a454cae172618234d9d48df2b
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: aff1427d8c3e99b3cb1de82d8c02f107349d50dce012c7b1ed84e8b1cb352070
+              stepCounter: e91f8c3d2be59687686b084931c46db98c223a942757cb48aca32b009a3018ba
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 389a8cc8020a77d8671da67daae3a3bce7ec58f17636c82a2c7bc8b04da64bd3
+                stepCounter: c8d10200e6224d1c6e623a011465fd83187ab70a454cae172618234d9d48df2b
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 14d7f95546f454c239d4948d355bbb3b028f926926458222f4ab27ef4f418759
+              stepCounter: e91f8c3d2be59687686b084931c46db98c223a942757cb48aca32b009a3018ba
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PREFIX_VALUE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 36b0d9455e4d7ed21a52b7e941d07b536985c3ff18ab3a1d4c82b176f973eab4
+                stepCounter: c8d10200e6224d1c6e623a011465fd83187ab70a454cae172618234d9d48df2b
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DEO
+                nodeName: RS_2
+            join:
+                joinCondition:FROM{ref(DEO,RS_2)} "RS_2"
+            name: CTE_NAMING_CONVENTION_PREFIXES_1
+            noLinkRefs: []
+      name: CTE_NAMING_CONVENTION_PREFIXES_1
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: e91f8c3d2be59687686b084931c46db98c223a942757cb48aca32b009a3018ba

@@ -1,0 +1,143 @@
+steps:
+  FCT_SOURCE_FANOUT-85bf60ed681e3af936a3cc1a033a1d8664a7b2ba4edd91f9d70e6219bf26b0a1:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationName: DEO
+      materializationType: table
+      metadata:
+        appliedNodeTests:
+        columns: 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 2fdd55e7e9c99d004d9b76369b40985fe8215fc308ddfd3eacc599eaa14c6af1
+            stepCounter: 85bf60ed681e3af936a3cc1a033a1d8664a7b2ba4edd91f9d70e6219bf26b0a1
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: PARENT
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 8ae08258ce38ecbddefe7c6d5655fb416a51c2f427828cab2c59e1c56517b98a
+              stepCounter: 8e6c8bcbf08d5bbbc27c86776d8941e9b730d07b9a412867409e160e0df7d5e7
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 7c036670631ffa770c481b8f39bf5b9dc824eb9ec5884fa0f9884949b7a8052e
+            stepCounter: 85bf60ed681e3af936a3cc1a033a1d8664a7b2ba4edd91f9d70e6219bf26b0a1
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: MODEL_CHILDREN
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: ""
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: 85bf60ed681e3af936a3cc1a033a1d8664a7b2ba4edd91f9d70e6219bf26b0a1
+          config:
+          dataType: TIMESTAMP
+          defaultValue: ""
+          description: ""
+          hashColumns: []
+          isSystemCreateDate: true
+          name: SYSTEM_CREATE_DATE
+          nullable: true
+          sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: 85bf60ed681e3af936a3cc1a033a1d8664a7b2ba4edd91f9d70e6219bf26b0a1
+          config:
+          dataType: TIMESTAMP
+          defaultValue: ""
+          description: ""
+          hashColumns: []
+          isSystemUpdateDate: true
+          name: SYSTEM_UPDATE_DATE
+          nullable: true
+          sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        - acceptedValues:
+            strictMatch: false
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: cfd6bd03-9b3b-4f64-abf0-808501813d4e
+            stepCounter: a86f7584-202d-4d2d-b638-5448ef0bdc29
+          dataType: NUMBER(12,2)
+          description: ""
+          name: PS_SUPPLYCOST
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 4ffeb866-ed69-46bc-a17b-514b658768a7
+              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
+            transform: ""
+        - acceptedValues:
+            strictMatch: false
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: 85bf60ed681e3af936a3cc1a033a1d8664a7b2ba4edd91f9d70e6219bf26b0a1
+          dataType: NUMBER(38,0)
+          description: ""
+          name: PS_AVAILQTY
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: b98fb5d0-f185-4803-9cc6-b05173f5cd75
+              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
+            transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+        - customSQL:
+            customSQL: ""
+          dependencies:
+          - locationName: DEO
+            nodeName: RS_3
+          join:
+            joinCondition: FROM { ref(DEO, RS_3) } "RS_3"
+          name: FCT_SOURCE_FANOUT
+          noLinkRefs: []
+      name: FCT_SOURCE_FANOUT
+      overrideSQL: false
+      schema: ""
+      sqlType: Fact
+      type: sql
+    stepCounter: 85bf60ed681e3af936a3cc1a033a1d8664a7b2ba4edd91f9d70e6219bf26b0a1

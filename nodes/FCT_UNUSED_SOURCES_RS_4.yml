@@ -1,0 +1,221 @@
+steps:
+  RS_4-None:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+          - continueOnFailure: true
+            description: ""
+            name: Test
+            runOrder: After
+            templateString: ""
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: d18e039d8e5ab0193133f3d04513406459787b998d640f6a7efaf64dd19fe09e
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RELATIONROWS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 8060a9a241fc04e9bbc9503c55b4478bb7caf370752ca1d15b3d22f1ddcb0f6b
+                stepCounter: 8a3071c52ecae4bde3d7d24417fc4214ff1a69c155d8e9e2d2bc07818c62f24a
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 71e0bd556ebf501802ebd09145dd5f82248206b94cd09004e21602791a89933a
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DOCUMENTATION_COVERAGE_PCT
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: df0ba0bed68bd88b269fe1a357555823ba93b8796270155d4dbf4571faf1fa2d
+                stepCounter: 8a3071c52ecae4bde3d7d24417fc4214ff1a69c155d8e9e2d2bc07818c62f24a
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f24665bc2ee693a8ee4d0a712e0ba690fdf36fa5a77cc603cb90153c6a97ed93
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DOCUMENTED_MODELS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: d05e571c2095805938a761aa5b9363c0aa26d5b66a2c1cf67a46e74177d54dfb
+                stepCounter: 8a3071c52ecae4bde3d7d24417fc4214ff1a69c155d8e9e2d2bc07818c62f24a
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 3f97c44affd8e159049d8310d8cb6dcc60bac07975af8e32fba0cd9c929a785f
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INTERMEDIATE_DOCUMENTATION_COVERAGE_PCT
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: e290666f3267f10d83f987d842d1ccb7f56681ae7670901a2732d27439ea222a
+                stepCounter: 8a3071c52ecae4bde3d7d24417fc4214ff1a69c155d8e9e2d2bc07818c62f24a
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8b1ddcfd6e04d25d872207595130852eb3b128b01a6fd92c3671ba0406637968
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MARTS_DOCUMENTATION_COVERAGE_PCT
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 1b85551482e623b0f58fd373adbc4afcd00c8d2322631a7d61a654d33c90a7b5
+                stepCounter: 8a3071c52ecae4bde3d7d24417fc4214ff1a69c155d8e9e2d2bc07818c62f24a
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e3f98a06e26970fe8a765ea0f4dbfccba8bed2e7b5457a36f5c71149b785a415
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MEASURED_AT
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: f940efcebcaf9729e7989eb09f272520dec1c506b23418757fe4fe62b4fc8e9f
+                stepCounter: 8a3071c52ecae4bde3d7d24417fc4214ff1a69c155d8e9e2d2bc07818c62f24a
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 23a0b5c3e607a682b866b962fac30c557468bf054c49d23f7d0efe7f8c22625c
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: OTHER_DOCUMENTATION_COVERAGE_PCT
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: ed67402d7ec9029fdcc57506ec7f3323d157afa7d1fc87e80f49c67beb19377f
+                stepCounter: 8a3071c52ecae4bde3d7d24417fc4214ff1a69c155d8e9e2d2bc07818c62f24a
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 7b1aa8c53bab1687d385e0bc289bd40239fd6875dc38f5fb82f9683ba30eafa5
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: STAGING_DOCUMENTATION_COVERAGE_PCT
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: c76414f411591e8490e7e357428f7c33829a656a832a54bb1cf3921fc0670e05
+                stepCounter: 8a3071c52ecae4bde3d7d24417fc4214ff1a69c155d8e9e2d2bc07818c62f24a
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: b8541296575ceb6d1ee92ad0b87be803009c220467a9d239bbced5283e080d2f
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TOTAL_MODELS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 1fa552a928829da8a474946b66de952251f2ad14587a5c2b038afd961a2060f5
+                stepCounter: 8a3071c52ecae4bde3d7d24417fc4214ff1a69c155d8e9e2d2bc07818c62f24a
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DEO
+                nodeName: CTE_FINAL_1
+            join:
+                joinCondition:FROM{ref(DEO,CTE_FINAL_1)} "CTE_FINAL_1"
+            name: RS_4
+            noLinkRefs: []
+      name: RS_4
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: None

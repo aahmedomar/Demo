@@ -1,0 +1,1925 @@
+steps:
+  INT_ALL_DAG_RELATIONSHIPS-b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationName: DEO
+      materializationType: table
+      metadata:
+        appliedNodeTests:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: 
+            columnReference:
+              columnCounter: ed6929f3-2637-47c5-8645-a80e4f60192c
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            config: 
+            dataType: NUMBER
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSurrogateKey: true
+            name: DIM_SUPPLIER_KEY
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f7e935ebace0bad9b5c595f106fbc8c8d2ab1f62256d5de526646becf1045ed1
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f992c304f4f87ab72768beda4e05effc4bb2e448dc9bf7b8b00ea533c2d74dbd
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 7e2636f1d6fa23e61d462c889f3c96b8c29a16fbda970744316cea0f4fca7c10
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 4dfadadff878cab0247acdfc2cd63e7d9eb9903208718df189444e171ae79853
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: bf6fd4c35043610c8550893143f7660eacc2199fc9ca6afb30932c806869ee9c
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: daaf6377561b7d3a0ff70bac1ceeb9e69b3c0c8127579763c8cd46edfe185a43
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: ac8b6292959b76951395cef4b73bc5282567adc1c7cf240f57fcca442b454f98
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 0a3bd1b28981bc1084def97f07ccddefbcbe0db2b0905f97e7dda07939d8de54
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: c657eca81656a01e2c23651a7e7825b9df21ffd8ea9900fb0707e1e695c8bdf5
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 5757d50d08ba9bbc63610b489b3b524b354dc69e3d85d171e7c7b81afea8cc94
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 72110a9327322d5c1a72148d2c2f806b68720f045b81361e81d1dd927468d37c
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 7d60607943c53f0d85676cec6fd8eeecf3733895b203c7d8fe9849598c893d59
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e3fcd53f0bf1c7d00ae262d33c8a18189f74155ef67001c3d9519c4a0794f497
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e1be74fb3256677a9a79f97c16d7c183feba0ea69d1a0c0305a08eba833f5f78
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: af0dcfb7a21a52d157fba436b6e3f941eba6e556bfa5d1dcc5de3c130fb72077
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 4718ca44287e607e774541d5d3e053d809a120ff5019e0dbf9fad67b1d5d0fb6
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: aae3051db3e4d553607a1a4cdca56a5b265e840a5565d0cb821f66cb271c7f10
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: c78206f6c3be253cf0ce45ef27cf64e988f92e80da63bd10a78b4daf5dfeaf92
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 003fba594ca415596607dd01c3c7fafce96b4f204ebfe4b9660e6de555e8fc6f
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8e362c67d430fc014f6f03dedd6b25de636c124e3796fe2302843e70927e4985
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 03f13be3851dab324038718ce5a8eaae0ad7b72eb1b7fbf7b37472b2451f9079
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6482851491383ebf1e2ab3a0105e7ec6a9936254f87f03370cc20bb9c490da18
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 99abc98cdf738bd81c529bd28ef519bc4abb5a35c97aa679285a99550fd2a3b5
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e882b4c9be8cff7f9280a74cd3f00f1285fc95e63da6225491acd022b974d10f
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 149b0918417e354bd8785de82696a8944a962174574b1b46fe2ac17d22ae4fbf
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6cffbc9d2aa2849e92229f753050ef80e22856882c24958933250317f9073899
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 5eeb20c3264f98a6962f45e24ff57c2848bf1e83111cb457edc61f9da6d24c1a
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 76efb36cd6d172a0bd027525c380227a8182c4ea9fd0cf0723516459b13cf647
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 4f8ce5a752905fddc28a2bd21dcf99b6ccad1cc157fda94be3d2b0e3e6216098
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 5fcedd9be6fffa50e4e727389f98a224ea31f938d5b4043503d823dbb280b6dd
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 982e6b9a6479e0edb3750ce3acedf64b6ad1dc7f8ff72f19b4d3b641655cda15
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 111f3c42d8b010c88344bc431763e65a66bfedeea75c09361a4ab5d1ffbe3d03
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: efce365a763a20377eb277f2763a61bc72694ecc22493aee4d49b05a9ca66bef
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f4526b1ad337ba09f01e460c03ba7b8289a40a227a027dcf42e45de1fa368f98
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9b0e26a51285030b1d718223087556c1b444464ee3dca84149c36a9eac86223e
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: aa33e850c40bc5e358bbc7e0f8ba5e53125d9b14157fc8952c17708c0f23ddd5
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: d45b31f34916d68a6e0a8d22578991c6146d33f268339a67fdc48ab397e78d37
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 208eba17dc3d8ff89d9523cedac8e46a1930f9b9188c74d8a0578f4eec25b9d1
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 3a498b2f60d352b3488d376c520e066345db0695009b6b46657c6ea1cc6347a6
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 76d7eb17e2722918c3c04c1c5588b06bcc15c721f8437b7ce19caf4dd8246a92
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e93e70e479702e1b45557c345d0c1a3b02469a4ad901319fe7e89c86f78d0f5a
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6059885f5fecea4778a3678a0128c44e4481a1d79a0344ca911c4e1834220a7a
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: cd6ac66a10d56dbe215915351c5f6ab6286dd19a2ca7789dcbf4102e41f48976
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 3b16da766040c2c0aec8f74b0e7da90b0fe412c70e6583c97ad09f17fd097cd9
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 1f7ef8d581d1e2cdd3a971aec254201452ad6abc527608736aa79f1e5b4fd072
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 2101c441f555853d5696108462c19734c8459279ee399fd32f5d272c21ebdc97
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: ea9cc2ed62808ac5689a2f8aa6b2b28bb694117252952a991f66c7320964bace
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: IS_DEPENDENT_ON_CHAIN_OF_VIEWS
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9454372365f8502eae2c3b27e452912e408299108f2e2c87f009e668ff90c59b
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 05d18cfcf9a7e30646797f08e8bf145c1c1da3b04410a0b44079b7cba5ada6a9
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PATH
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: ef35d7e2eb16ae467e260ab5b38d9b2e5edc00575c25939762f79334bf11b679
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: d29f249fadbdf670d4384689bffe743e6e0d55c06af826b2ad8b755d5b20a2a2
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e29add4161c38ad81427b265b064221674729374c4bff57e9ed8489a731a7d84
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: fd0e4f639f02ab21b0915bf58f426a8b6afc5bb05330dbaa6dc5d6c3830ea842
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 783a834b63eab7690c30f2fad23078e1313731a40d7f6a019ab00cf65c693fb8
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_MATERIALIZED
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: b0efa110a2a6e3a6aaf1cd4aed90565bdc58cf77ef042c5341a83bc847edd8b3
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: aa156c87cd1261752a9137af7ca46b4478930781179cb8a1962a1d7fd2f16646
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: dfbb2a16cd85f27ca8add07149641309b6af8bf426231a244d514e17b6b720df
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_DIRECTORY_PATH
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: cc75e18c6ec8eaaa9cbc767bd7ef3bc2b1aec3921de25dd054dce6a46ed2eaac
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_FILE_NAME
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 5faab4cd984632f96107ccc407cb6090bdf421b311ddb95f744ec26f1d08569b
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_FILE_PATH
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f91c291204a31c2ab9782314970fd41885eec2252877ba71afea871aa875c9d2
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 56dd3a13b33f8cb1e3509db9dac359a617e6564fb27e1efcef93f6a817ec9405
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 09ffd03bba46a8a58c9de084fee56ebd4cf1164b79657f9a3c06b8d223ae71a6
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: c2e3f74da900db1749c76e77569539ca0acb20cf81928896d084fc528a7c66b1
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_SOURCE_NAME
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: be3dd9614504c83dbafd646098d68d3624020d196f424e347e22f2af78d50c31
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f9af1fbab69193bee410206b9801a78bac92bd3fd9615a3fe8f34c88fff2c6ff
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6037aaf7d9e5faad71e0cbcb88a54e06010b8c656a999a4ad51824a445bc92c6
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 050eba0f72c11ae04487992e5b5ac031581052c232008a68bb20abad941fc74d
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 54becfdba8f681f69c51269f473d0710ef76a6833eeb765ea7617a04b625d14c
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_MATERIALIZED
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 866d9c6b3f108cf6044e8d6b2c14595efeed5cfef66b95b4ae444ba7f4bf9c1b
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_SOURCE_NAME
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: a67d05adc9dca5f2c579261e8cda7c293e1ad27d4033d36fc18688211e342f22
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_FILE_PATH
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: fb53f1b4c6a09f64a19c5ec8de56d1c3f2afcdbf0a63e4183f47b5628e4d130e
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_DIRECTORY_PATH
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 51c69a997a37b55a701974db1512a3e7670365cd634d6fdb86451cf57b4e1fc7
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_FILE_NAME
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: d3efd7aa84b01daee74b5afa3ddee0bea764b5db22f76b07aae2bfba899a3d0b
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: bf33e3e01923b0519411c88fc86e43c3498cf69f8d0cc6b719c7bad259d6fe42
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 49e3a25edae5ec377f36f0be934dd0b47877e826bebcc447e4bdc26f41cc1340
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 4a72e4454aec94e8e3b23f9fd3126dca202cddb8fb57a028ef93b5b847bf50ab
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: b5b945907780ecdf9f2efe53549a69245378bd64913b27a58926236deb6f8a0b
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_MATERIALIZED
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e483f78a89e5444e6e81e89920cc52d0f1b43a2d1726c5b4b23eb62e6864ad95
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_SOURCE_NAME
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: ca71c924cb141c0f6deef0c6afcc1e3ed394e33a3dcb4da43e402bed43bca28c
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_FILE_PATH
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 94139824b85cb7b5fad00beb32d09fbe0879b3835ccc2a269e44e5296d832ec5
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_DIRECTORY_PATH
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: c4aea5518fb7f60d9e5a1685bb9aef95673c6cc48799dd39d301fc500a0471f8
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_FILE_NAME
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: d017437214d9392c83180cc9bbb54ba9e08a806f01667df98c59130a1c73339b
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 34a43e95bd96fb61b24cc9e31fec5f71d65a7aa5ac5848311135794918779238
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PATH
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9c65c34fe47b8387da080656243d0d250ff183187cdd962db6118d253bd199b1
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: IS_DEPENDENT_ON_CHAIN_OF_VIEWS
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+            columnReference:
+              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            config:
+            dataType: NUMBER
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemVersion: true
+            name: SYSTEM_VERSION
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+            columnReference:
+              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            config:
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCurrentFlag: true
+            name: SYSTEM_CURRENT_FLAG
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+            columnReference:
+              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            config:
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemStartDate: true
+            name: SYSTEM_START_DATE
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+            columnReference:
+              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            config:
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemEndDate: true
+            name: SYSTEM_END_DATE
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: CAST('2999-12-31 00:00:00' AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+            columnReference:
+              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            config:
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCreateDate: true
+            name: SYSTEM_CREATE_DATE
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+            columnReference:
+              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+            config:
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemUpdateDate: true
+            name: SYSTEM_UPDATE_DATE
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: Placeholder-source_storage_location
+                nodeName: No Source Name
+            join:
+              joinCondition: FROM {ref(Placeholder-source_storage_location,No Source Name)} "No Source Name"
+            name: DIM_INT_ALL_DAG_RELATIONSHIPS
+            noLinkRefs: []
+      name: DIM_INT_ALL_DAG_RELATIONSHIPS
+      overrideSQL: false
+      schema: ""
+      sqlType: Dimension
+      type: sql
+    stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56

@@ -1,0 +1,181 @@
+steps:
+  RS_1-42b33cb37beee05b6d28bc4838167c14f3d2cfbc627bc3c30e139e1d8159ed60:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+          - continueOnFailure: true
+            description: ""
+            name: Test
+            runOrder: After
+            templateString: ""
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 139db18265da5f67b2ed7ca6a2951ea03d0695d970bac88ab0b482576c290a8a
+              stepCounter: 42b33cb37beee05b6d28bc4838167c14f3d2cfbc627bc3c30e139e1d8159ed60
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: f7e935ebace0bad9b5c595f106fbc8c8d2ab1f62256d5de526646becf1045ed1
+                stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 01a2633ec14bae75e8a266e705fb2bc50fd34d1b0d6f52b7f1adc9cc6f65d9c8
+              stepCounter: 42b33cb37beee05b6d28bc4838167c14f3d2cfbc627bc3c30e139e1d8159ed60
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DISTANCE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 7e2636f1d6fa23e61d462c889f3c96b8c29a16fbda970744316cea0f4fca7c10
+                stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8d2493b0f497d37ba980b5118cf088f32b83fe8d6f75f2245344e0fb774c42f6
+              stepCounter: 42b33cb37beee05b6d28bc4838167c14f3d2cfbc627bc3c30e139e1d8159ed60
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PARENT
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 0a3bd1b28981bc1084def97f07ccddefbcbe0db2b0905f97e7dda07939d8de54
+                stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 2cdeada22f9c0bc206db583d4b98b352166091ea80aceaad347959f4b7e5a88b
+              stepCounter: 42b33cb37beee05b6d28bc4838167c14f3d2cfbc627bc3c30e139e1d8159ed60
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PATH
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 05d18cfcf9a7e30646797f08e8bf145c1c1da3b04410a0b44079b7cba5ada6a9
+                stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 4aaea06a774dd71eac864f713a2e0468b252a3ae5ef16805ef2c3d24f106bd4e
+              stepCounter: 42b33cb37beee05b6d28bc4838167c14f3d2cfbc627bc3c30e139e1d8159ed60
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RELATIONROWS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: None
+                stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 1efa0073b98a8073f0388ed7aaa97f4b5b5b50d591ebef48e8677098bb215096
+              stepCounter: 42b33cb37beee05b6d28bc4838167c14f3d2cfbc627bc3c30e139e1d8159ed60
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHILD_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: f992c304f4f87ab72768beda4e05effc4bb2e448dc9bf7b8b00ea533c2d74dbd
+                stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: eb131a0c09ff1c12a7eac319edbefe464290ce551259bd69ed75276b8aa2863f
+              stepCounter: 42b33cb37beee05b6d28bc4838167c14f3d2cfbc627bc3c30e139e1d8159ed60
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: IS_DEPENDENT_ON_CHAIN_OF_VIEWS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: ea9cc2ed62808ac5689a2f8aa6b2b28bb694117252952a991f66c7320964bace
+                stepCounter: b9b200254734d58285374e45951a7dc1e8882fd9aac8d1a8ab743b6633041a56
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DEO
+                nodeName: INT_ALL_DAG_RELATIONSHIPS
+            join:
+                joinCondition:FROM{ref(DEO,INT_ALL_DAG_RELATIONSHIPS)} "INT_ALL_DAG_RELATIONSHIPS"
+            name: RS_1
+            noLinkRefs: []
+      name: RS_1
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 42b33cb37beee05b6d28bc4838167c14f3d2cfbc627bc3c30e139e1d8159ed60

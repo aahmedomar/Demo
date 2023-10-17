@@ -1,0 +1,81 @@
+steps:
+  CTE_INVOCATION_ERROR_LABELING_1-e7e8599ceebe23da6c05624875d047d2c6aa6b7640a6df6b6da704a844e16cdd:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+          - continueOnFailure: true
+            description: ""
+            name: Test
+            runOrder: After
+            templateString: ""
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: d41a4bea1b4ca8711f43f0f88bf826ad06b9df6b006fe7631287d02b710222f6
+              stepCounter: e7e8599ceebe23da6c05624875d047d2c6aa6b7640a6df6b6da704a844e16cdd
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COMMAND_INVOCATION_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: f28e6dd2aa8d88de2a43146ec0d71ca01e1d5fe1a42835ff70fcea6ed3f6c370
+                stepCounter: None
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 46ae87f46600d1a4df0d01013b6bdab2b74b2c8dcebb1eee80a130c92e00e657
+              stepCounter: e7e8599ceebe23da6c05624875d047d2c6aa6b7640a6df6b6da704a844e16cdd
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INVOCATION_STATUS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 541bd0dfcfb6cfc933b8dce932527aad80dde04c63c76d9834d75ccf9e616f30
+                stepCounter: None
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DEO
+                nodeName: RS_11
+            join:
+                joinCondition:FROM{ref(DEO,RS_11)} "RS_11"
+            name: CTE_INVOCATION_ERROR_LABELING_1
+            noLinkRefs: []
+      name: CTE_INVOCATION_ERROR_LABELING_1
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: e7e8599ceebe23da6c05624875d047d2c6aa6b7640a6df6b6da704a844e16cdd

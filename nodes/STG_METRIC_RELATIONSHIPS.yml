@@ -1,0 +1,116 @@
+steps:
+  STG_METRIC_RELATIONSHIPS-d9af4820551bd5816509d7da457b12383cafc4e8ad9d33f2c07bde95c8517082:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 2d8e35f3a54a602f0c344f3ff2689170a2a3c42855c08beed1d613391947a2e7
+              stepCounter: d9af4820551bd5816509d7da457b12383cafc4e8ad9d33f2c07bde95c8517082
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DIRECT_PARENT_ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e723766f692adaa92af75be5aec654bd907de23ceb60b6814698849728b5c105
+              stepCounter: d9af4820551bd5816509d7da457b12383cafc4e8ad9d33f2c07bde95c8517082
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: IS_PRIMARY_RELATIONSHIP
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 61e2e4e8510ac8d46c346b4986f956a9560b396a93b9c8b20be75101f59ddb03
+              stepCounter: d9af4820551bd5816509d7da457b12383cafc4e8ad9d33f2c07bde95c8517082
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RESOURCE_ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 67373c950555ca65daaa4b87820777934301d463ea7cf50e1fdab2a8fd1b6baa
+              stepCounter: d9af4820551bd5816509d7da457b12383cafc4e8ad9d33f2c07bde95c8517082
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: UNIQUE_ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: No Source Model
+                nodeName: No Source Name
+            join:
+              joinCondition: FROM{ref(No Source Model,No Source Name)} "No Source Name"
+            name: STG_METRIC_RELATIONSHIPS
+            noLinkRefs: []
+      name: STG_METRIC_RELATIONSHIPS
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: d9af4820551bd5816509d7da457b12383cafc4e8ad9d33f2c07bde95c8517082

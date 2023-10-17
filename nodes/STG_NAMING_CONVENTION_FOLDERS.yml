@@ -1,0 +1,96 @@
+steps:
+  STG_NAMING_CONVENTION_FOLDERS-f3bf30f352f10be35c0838dad7be8cd2df86c12e59f6582e7ee8b49f15bb52d9:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: a8ffc96e7ca25012fa40b8dfaea3249701fc12ab118585eefacc2317a9ab00d4
+              stepCounter: f3bf30f352f10be35c0838dad7be8cd2df86c12e59f6582e7ee8b49f15bb52d9
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FOLDER_NAME_VALUE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: b804875efce045ce9aa65c61c5275fbcfd2ecc36aa669c61c66a03af7ba7ce0e
+              stepCounter: f3bf30f352f10be35c0838dad7be8cd2df86c12e59f6582e7ee8b49f15bb52d9
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: b5ae41c2c1a34793a4e5096a7432809a0e3f01b8096cdf492d4013e31d0b94e2
+              stepCounter: f3bf30f352f10be35c0838dad7be8cd2df86c12e59f6582e7ee8b49f15bb52d9
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FOLDER_NAME
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: No Source Model
+                nodeName: No Source Name
+            join:
+              joinCondition: FROM{ref(No Source Model,No Source Name)} "No Source Name"
+            name: STG_NAMING_CONVENTION_FOLDERS
+            noLinkRefs: []
+      name: STG_NAMING_CONVENTION_FOLDERS
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: f3bf30f352f10be35c0838dad7be8cd2df86c12e59f6582e7ee8b49f15bb52d9

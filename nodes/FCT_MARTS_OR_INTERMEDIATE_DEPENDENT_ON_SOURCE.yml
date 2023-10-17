@@ -1,0 +1,245 @@
+steps:
+  FCT_MARTS_OR_INTERMEDIATE_DEPENDENT_ON_SOURCE-c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationName: DEO
+      materializationType: table
+      metadata:
+        appliedNodeTests:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: 
+            columnReference:
+              columnCounter: 14838b9e-0f65-41e0-91f2-5d00c1854987
+              stepCounter: c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629
+            config: 
+            dataType: NUMBER
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSurrogateKey: true
+            name: DIM_SUPPLIER_KEY
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 19b7390922b5191b00649b62df7d3f015016f901dc29e7569e336a2bcceb0f04
+              stepCounter: c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: d5f15ceec2ecb1cfcc8d7946e343327701f70fc19e4ca953adf22424f8c42641
+              stepCounter: c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: PARENT_RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e4b109d0e8f91aae6eff1819ac49d73a7d73d12ef68992d715bffad46427ea63
+              stepCounter: c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""   
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 4729182ad29ed3071e62e299da1bb0cde6cb878c42b1051b6e2d185bee97cd72
+              stepCounter: c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            name: CHILD_MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No Source Column Counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+            columnReference:
+              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              stepCounter: c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629
+            config:
+            dataType: NUMBER
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemVersion: true
+            name: SYSTEM_VERSION
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+            columnReference:
+              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              stepCounter: c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629
+            config:
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCurrentFlag: true
+            name: SYSTEM_CURRENT_FLAG
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+            columnReference:
+              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              stepCounter: c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629
+            config:
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemStartDate: true
+            name: SYSTEM_START_DATE
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+            columnReference:
+              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              stepCounter: c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629
+            config:
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemEndDate: true
+            name: SYSTEM_END_DATE
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: CAST('2999-12-31 00:00:00' AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+            columnReference:
+              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              stepCounter: c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629
+            config:
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCreateDate: true
+            name: SYSTEM_CREATE_DATE
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+            columnReference:
+              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              stepCounter: c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629
+            config:
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemUpdateDate: true
+            name: SYSTEM_UPDATE_DATE
+            nullable: true
+            sourceColumnReferences:
+            - columnReferences: []
+              transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: Placeholder-source_storage_location
+                nodeName: No Source Name
+            join:
+              joinCondition: FROM {ref(Placeholder-source_storage_location,No Source Name)} "No Source Name"
+            name: DIM_FCT_MARTS_OR_INTERMEDIATE_DEPENDENT_ON_SOURCE
+            noLinkRefs: []
+      name: DIM_FCT_MARTS_OR_INTERMEDIATE_DEPENDENT_ON_SOURCE
+      overrideSQL: false
+      schema: ""
+      sqlType: Dimension
+      type: sql
+    stepCounter: c12e3986d86131bf0ccf1fd6884959b1bde49bbbd0c6c189677c568d186a0629

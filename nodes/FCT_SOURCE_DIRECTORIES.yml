@@ -1,0 +1,183 @@
+steps:
+  FCT_SOURCE_DIRECTORIES-060306b09770e89eb4f9680d7ab14e34edf6a23dc423269c1e59a9b40291af28:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationName: DEO
+      materializationType: table
+      metadata:
+        appliedNodeTests:
+        columns: 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: a8c4bd40c64afcaa4391871e6f9751b5df550e77b2934858983201db123d8d8e
+            stepCounter: 060306b09770e89eb4f9680d7ab14e34edf6a23dc423269c1e59a9b40291af28
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: RESOURCE_NAME
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: cb65007064ffebb06d3447e541f636e5532426d5fa00dc7629432bee4dbd4c90
+            stepCounter: 060306b09770e89eb4f9680d7ab14e34edf6a23dc423269c1e59a9b40291af28
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: RESOURCE_TYPE
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 294d2a927e9dd5f039b0e4728288671f555722b88477c49462ab944cf4f9f522
+            stepCounter: 060306b09770e89eb4f9680d7ab14e34edf6a23dc423269c1e59a9b40291af28
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: CURRENT_FILE_PATH
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 50a7db98e16246d1b2ad17a310906cafa6adee55c2c59484a7c16f7a804fd95b
+            stepCounter: 060306b09770e89eb4f9680d7ab14e34edf6a23dc423269c1e59a9b40291af28
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: CHANGE_FILE_PATH_TO
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: ""
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: 060306b09770e89eb4f9680d7ab14e34edf6a23dc423269c1e59a9b40291af28
+          config:
+          dataType: TIMESTAMP
+          defaultValue: ""
+          description: ""
+          hashColumns: []
+          isSystemCreateDate: true
+          name: SYSTEM_CREATE_DATE
+          nullable: true
+          sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: 060306b09770e89eb4f9680d7ab14e34edf6a23dc423269c1e59a9b40291af28
+          config:
+          dataType: TIMESTAMP
+          defaultValue: ""
+          description: ""
+          hashColumns: []
+          isSystemUpdateDate: true
+          name: SYSTEM_UPDATE_DATE
+          nullable: true
+          sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        - acceptedValues:
+            strictMatch: false
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: cfd6bd03-9b3b-4f64-abf0-808501813d4e
+            stepCounter: a86f7584-202d-4d2d-b638-5448ef0bdc29
+          dataType: NUMBER(12,2)
+          description: ""
+          name: PS_SUPPLYCOST
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 4ffeb866-ed69-46bc-a17b-514b658768a7
+              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
+            transform: ""
+        - acceptedValues:
+            strictMatch: false
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: 060306b09770e89eb4f9680d7ab14e34edf6a23dc423269c1e59a9b40291af28
+          dataType: NUMBER(38,0)
+          description: ""
+          name: PS_AVAILQTY
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: b98fb5d0-f185-4803-9cc6-b05173f5cd75
+              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
+            transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+        - customSQL:
+            customSQL: ""
+          dependencies:
+          - locationName: DEO
+            nodeName: RS_8
+          join:
+            joinCondition: FROM { ref(DEO, RS_8) } "RS_8"
+          name: FCT_SOURCE_DIRECTORIES
+          noLinkRefs: []
+      name: FCT_SOURCE_DIRECTORIES
+      overrideSQL: false
+      schema: ""
+      sqlType: Fact
+      type: sql
+    stepCounter: 060306b09770e89eb4f9680d7ab14e34edf6a23dc423269c1e59a9b40291af28

@@ -1,0 +1,81 @@
+steps:
+  RS_11-None:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+          - continueOnFailure: true
+            description: ""
+            name: Test
+            runOrder: After
+            templateString: ""
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f28e6dd2aa8d88de2a43146ec0d71ca01e1d5fe1a42835ff70fcea6ed3f6c370
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COMMAND_INVOCATION_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 7fc61b053b3739882ebedc82b7d222fad75b72affff60ee9cd33ae947ac582a0
+                stepCounter: 16debf74d7df5d138c89d35105b46e689affedb56dead913a1375057d7734aad
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 541bd0dfcfb6cfc933b8dce932527aad80dde04c63c76d9834d75ccf9e616f30
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INVOCATION_STATUS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: None
+                stepCounter: 16debf74d7df5d138c89d35105b46e689affedb56dead913a1375057d7734aad
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DEO
+                nodeName: CTE_INVOCATION_ERROR_COUNTING_1
+            join:
+                joinCondition:FROM{ref(DEO,CTE_INVOCATION_ERROR_COUNTING_1)} "CTE_INVOCATION_ERROR_COUNTING_1"
+            name: RS_11
+            noLinkRefs: []
+      name: RS_11
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: None

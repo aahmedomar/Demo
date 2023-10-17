@@ -1,0 +1,101 @@
+steps:
+  RS_2-c9bfd8bdfd88bde1556d1d30e2bbbf926ef7fea3cc0c48b1bc3f94df774a4f90:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+          - continueOnFailure: true
+            description: ""
+            name: Test
+            runOrder: After
+            templateString: ""
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 0ba2a2a6e60d52e99ac8808f55f1804294063e1c293bebd8fa5aceeec04bfb47
+              stepCounter: c9bfd8bdfd88bde1556d1d30e2bbbf926ef7fea3cc0c48b1bc3f94df774a4f90
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AMOUNT
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 6f7f8cdcb48dc73e869d9836e0705e924b86aa9b3878b3d431e3d43577f040b7
+                stepCounter: 5b51b8792f0abf2e0d50ecec3e03796f837905b1fbe98bab1f1d6e9cf95bd623
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 72c523732f1d9772baca14d7673d84030d4e93c3b19e06ff0d4d60f0790b16d3
+              stepCounter: c9bfd8bdfd88bde1556d1d30e2bbbf926ef7fea3cc0c48b1bc3f94df774a4f90
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: e61de4a8db5d11f68f02cae77849a1111b534e279b4566adf74011f7d568f4ba
+                stepCounter: 5b51b8792f0abf2e0d50ecec3e03796f837905b1fbe98bab1f1d6e9cf95bd623
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6e1dc92d7710092f06b1c6026e01dc61df42cd389f3a5fe45a7d009ab415d463
+              stepCounter: c9bfd8bdfd88bde1556d1d30e2bbbf926ef7fea3cc0c48b1bc3f94df774a4f90
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: STATUS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 589c9797e98fdbc06428c8078e0c44f173f1f253bdaaded5672df23abe7c168e
+                stepCounter: 5b51b8792f0abf2e0d50ecec3e03796f837905b1fbe98bab1f1d6e9cf95bd623
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DEO
+                nodeName: STG_PAYMENTS
+            join:
+                joinCondition:FROM{ref(DEO,STG_PAYMENTS)} "STG_PAYMENTS"
+            name: RS_2
+            noLinkRefs: []
+      name: RS_2
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: c9bfd8bdfd88bde1556d1d30e2bbbf926ef7fea3cc0c48b1bc3f94df774a4f90

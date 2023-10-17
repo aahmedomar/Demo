@@ -1,0 +1,121 @@
+steps:
+  RS_1-978222df877c949aaeb8539e29e3cb3937383d51d365409235a44e030f486353:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+          - continueOnFailure: true
+            description: ""
+            name: Test
+            runOrder: After
+            templateString: ""
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: a67bf15d1d1d5d0d34a6c9626caf5ce38932d89908f124f78b872ad2e44e45fe
+              stepCounter: 978222df877c949aaeb8539e29e3cb3937383d51d365409235a44e030f486353
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RESOURCE_NAME
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 54164370a60f090f6d60f3b3d43906587e6d2b68f73a3033dbb7ec9f8f6edb09
+                stepCounter: f2d643f144bca8fb5b8d8aab7b5de51a9adfc0157736e2562daf90a4a430d58e
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f6f5a80c07de971bde2d6abd14c75508e7c117f3a9e0010981b0ece0a4c5287e
+              stepCounter: 978222df877c949aaeb8539e29e3cb3937383d51d365409235a44e030f486353
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RESOURCE_TYPE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: d9d449f9faa217caf7c84767488e964cb588ce5520b1e3d2bc73f4a0005adcab
+                stepCounter: f2d643f144bca8fb5b8d8aab7b5de51a9adfc0157736e2562daf90a4a430d58e
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 50f746c68197963ae5f155b18b4f82f2352453bd1860e9c632be5f476fa2f240
+              stepCounter: 978222df877c949aaeb8539e29e3cb3937383d51d365409235a44e030f486353
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RELATIONROWS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: None
+                stepCounter: f2d643f144bca8fb5b8d8aab7b5de51a9adfc0157736e2562daf90a4a430d58e
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8c0d32ed4bce6807d0de3428cbd539fa4483d82b3a654b0a876dff58fee30b49
+              stepCounter: 978222df877c949aaeb8539e29e3cb3937383d51d365409235a44e030f486353
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: HARD_CODED_REFERENCES
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 2376d2f5091cbe9f754534fa73ba1323abe04973a347e4940c707de57eebdbbd
+                stepCounter: f2d643f144bca8fb5b8d8aab7b5de51a9adfc0157736e2562daf90a4a430d58e
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DEO
+                nodeName: INT_ALL_GRAPH_RESOURCES
+            join:
+                joinCondition:FROM{ref(DEO,INT_ALL_GRAPH_RESOURCES)} "INT_ALL_GRAPH_RESOURCES"
+            name: RS_1
+            noLinkRefs: []
+      name: RS_1
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 978222df877c949aaeb8539e29e3cb3937383d51d365409235a44e030f486353

@@ -1,0 +1,116 @@
+steps:
+  STG_NAMING_CONVENTION_PREFIXES-d56e5356e5df8d6f59d0ea612070bd464dc0dcb50f9a69c0a4779908dff1f881:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 192bd2dcdc0b02d075cd50e17fc9099c2d2cd523824a26ef6127e42d496fd277
+              stepCounter: d56e5356e5df8d6f59d0ea612070bd464dc0dcb50f9a69c0a4779908dff1f881
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9732262c85c3e545982a8d040328ba5014ffe62c51503ae556963529fefdd582
+              stepCounter: d56e5356e5df8d6f59d0ea612070bd464dc0dcb50f9a69c0a4779908dff1f881
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PREFIX_VALUE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: d7611f226b37f0ce062423532aa4ec7973f76552c8f4853f2619cb67d83febed
+              stepCounter: d56e5356e5df8d6f59d0ea612070bd464dc0dcb50f9a69c0a4779908dff1f881
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: UNIQUE_ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9b21742984e6ab1b6407a19679885283f1184d2ed45a78cd9cf6b334a13e6ce1
+              stepCounter: d56e5356e5df8d6f59d0ea612070bd464dc0dcb50f9a69c0a4779908dff1f881
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PREFIX_NAME
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: No Source Model
+                nodeName: No Source Name
+            join:
+              joinCondition: FROM{ref(No Source Model,No Source Name)} "No Source Name"
+            name: STG_NAMING_CONVENTION_PREFIXES
+            noLinkRefs: []
+      name: STG_NAMING_CONVENTION_PREFIXES
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: d56e5356e5df8d6f59d0ea612070bd464dc0dcb50f9a69c0a4779908dff1f881

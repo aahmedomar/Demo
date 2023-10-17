@@ -1,0 +1,121 @@
+steps:
+  PAYMENT-495be07d-3bce-4b47-8085-186ab61e21e9:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationID: ""
+      locationName: STRIPE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: b0a1b36d-2350-41da-bce1-679ae1c40428
+              stepCounter: 495be07d-3bce-4b47-8085-186ab61e21e9
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: ac86b5ac-b538-44f1-a214-0caf0b2d8831
+              stepCounter: 495be07d-3bce-4b47-8085-186ab61e21e9
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: CREATED
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: bc24a07c-2c1a-4876-b7b0-56699ee93c94
+              stepCounter: 495be07d-3bce-4b47-8085-186ab61e21e9
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8ed9b815-469a-400f-aead-a147052ff33e
+              stepCounter: 495be07d-3bce-4b47-8085-186ab61e21e9
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: ORDERID
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: bca8e8a9-86bd-408c-9b34-9f74564a219b
+              stepCounter: 495be07d-3bce-4b47-8085-186ab61e21e9
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: PAYMENTMETHOD
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 77d3e340-3ba8-4516-98c0-fbfdf7050497
+              stepCounter: 495be07d-3bce-4b47-8085-186ab61e21e9
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM { ref(f'STRIPE', 'PAYMENT') }
+      name: PAYMENT
+      schema: ""
+      sqlType: Source
+      table: PAYMENT
+      type: sourceInput
+    stepCounter: 495be07d-3bce-4b47-8085-186ab61e21e9

@@ -1,0 +1,101 @@
+steps:
+  CTE_MULTIPLE_SOURCES_JOINED_1-d476f96970038635020a46ead8f30138a0cef49ffbddcb1a3c29ba7dc5e2d4b7:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+          - continueOnFailure: true
+            description: ""
+            name: Test
+            runOrder: After
+            templateString: ""
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: a08d89b54ad7fa1b22d5cae721ae4c767818cb62c1f9469c29095e65f790090f
+              stepCounter: d476f96970038635020a46ead8f30138a0cef49ffbddcb1a3c29ba7dc5e2d4b7
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RELATIONROWS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: d3465dd89f30458ddad334177f0817487814ce9ec8a76ce89d573c6928343b0b
+                stepCounter: b5ea463399a2f70d2df221be53d233fbc6c7de5ffa4f1c9aa71dc8b70cc9589d
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: afaa29182366ca2359b75b7dae9134f5511f527207d0786ba3c99735aa576808
+              stepCounter: d476f96970038635020a46ead8f30138a0cef49ffbddcb1a3c29ba7dc5e2d4b7
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHILD
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 52bda00c951dbd3da46287f019a4409a5e71ef10e91cec997fca689f93d5aaa5
+                stepCounter: b5ea463399a2f70d2df221be53d233fbc6c7de5ffa4f1c9aa71dc8b70cc9589d
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: d3c1866e793e8bc0c635e8306b782ad316dabdeaf6152a693f57df5f9e8d23a9
+              stepCounter: d476f96970038635020a46ead8f30138a0cef49ffbddcb1a3c29ba7dc5e2d4b7
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SOURCE_PARENTS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 87fd24d47d9a0f67728d63740d3ec0658bf91e058adbedf53e70f0153a63a339
+                stepCounter: b5ea463399a2f70d2df221be53d233fbc6c7de5ffa4f1c9aa71dc8b70cc9589d
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DEO
+                nodeName: RS_2
+            join:
+                joinCondition:FROM{ref(DEO,RS_2)} "RS_2"
+            name: CTE_MULTIPLE_SOURCES_JOINED_1
+            noLinkRefs: []
+      name: CTE_MULTIPLE_SOURCES_JOINED_1
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: d476f96970038635020a46ead8f30138a0cef49ffbddcb1a3c29ba7dc5e2d4b7

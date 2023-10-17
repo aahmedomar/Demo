@@ -1,0 +1,166 @@
+steps:
+  STG_ORDERS-ed6d225ae8e15bbca44aff0b39245cbabfd33fd8ffa1057044fbc355dfbaeb03:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: "model"
+      metadata:
+        appliedNodeTests:
+          
+          - continueOnFailure: true
+            description: ""
+            name: equal_rowcount
+            runOrder: After
+            templateString: "{{ equal_rowcount('"ANALYTICS"."DEO"."STG_ORDERS"', '"ANALYTICS"."DEO"."ORDERS"') }}"
+            
+          - continueOnFailure: true
+            description: ""
+            name: expression_is_true
+            runOrder: After
+            templateString: "{{ expression_is_true('"ANALYTICS"."DEO"."STG_ORDERS"', '>', '') }}"
+            
+          - continueOnFailure: true
+            description: ""
+            name: not_constant
+            runOrder: After
+            templateString: "{{ not_constant('"ANALYTICS"."DEO"."STG_ORDERS"', 'ORDERS') }}"
+            
+          - continueOnFailure: true
+            description: ""
+            name: not_accepted_values
+            runOrder: After
+            templateString: "{{ not_accepted_values('"ANALYTICS"."DEO"."STG_ORDERS"', 'CUSTOMER_ID', ['BARCELONA', 'NEW_YORK']) }}"
+            
+          - continueOnFailure: true
+            description: ""
+            name: not_empty_string
+            runOrder: After
+            templateString: "{{ not_empty_string('"ANALYTICS"."DEO"."STG_ORDERS"', 'CUSTOMER_ID', 'DBT_UTILS_NOT_EMPTY_STRING_CUSTOMER_ID') }}"
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: ['']
+            appliedColumnTests:
+              hasNull: false
+              isDistinct: true
+            columnReference:
+              columnCounter: 54f312c609ce8f44930019272bd7e5f7862776b5ff83dd368bc1b826ba372c86
+              stepCounter: ed6d225ae8e15bbca44aff0b39245cbabfd33fd8ffa1057044fbc355dfbaeb03
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CUSTOMER_ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: c67970469e7978fd99e46b9a755ea6b8251301031a54061293874d0493754b10
+                    stepCounter: babcde7a00923dfe54e9b7c82e2226673c24f7a78b6756cadb3de30dc7e5842e
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: false
+              isDistinct: true
+            columnReference:
+              columnCounter: 478307c5d58489bba5a7904a348aa780b5894761a6ee12821a223f7b4cf81663
+              stepCounter: ed6d225ae8e15bbca44aff0b39245cbabfd33fd8ffa1057044fbc355dfbaeb03
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: f78075c47a51c4de919a0e576adf0ea85c79ec6b77aaf0c843e395bbc621d5b8
+                    stepCounter: babcde7a00923dfe54e9b7c82e2226673c24f7a78b6756cadb3de30dc7e5842e
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8d107251e46f8d0a9ee0c1089d3b7ac8b6c09a0bdc12cda813ead17d8d83992d
+              stepCounter: ed6d225ae8e15bbca44aff0b39245cbabfd33fd8ffa1057044fbc355dfbaeb03
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_DATE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: bc9698350cca685d73b226d492fc124e3cf415a300b6fa8ef298bf0227a74009
+                    stepCounter: babcde7a00923dfe54e9b7c82e2226673c24f7a78b6756cadb3de30dc7e5842e
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: ['']
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: b62cc4f6b42eaaeef9994405a0083d70789eb6f69425a91ad232b7d00e5b5a92
+              stepCounter: ed6d225ae8e15bbca44aff0b39245cbabfd33fd8ffa1057044fbc355dfbaeb03
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: STATUS
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 9e29372b3da09e11aaa825688ce29e0a2ce91f5ce0488b95793a4e3c698d6031
+                    stepCounter: babcde7a00923dfe54e9b7c82e2226673c24f7a78b6756cadb3de30dc7e5842e
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 5d09bc93ff01da971db7fbe8b552736b2d3e498d6c7b9ee3252cc7e9a45396a0
+              stepCounter: ed6d225ae8e15bbca44aff0b39245cbabfd33fd8ffa1057044fbc355dfbaeb03
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: VALID_ORDER_DATE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: babcde7a00923dfe54e9b7c82e2226673c24f7a78b6756cadb3de30dc7e5842e
+                transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: JAFFLE_SHOP
+                nodeName: ORDERS
+            join:
+              joinCondition: FROM{ref(JAFFLE_SHOP,ORDERS)} "ORDERS"
+            name: STG_ORDERS
+            noLinkRefs: []
+      name: STG_ORDERS
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: ed6d225ae8e15bbca44aff0b39245cbabfd33fd8ffa1057044fbc355dfbaeb03

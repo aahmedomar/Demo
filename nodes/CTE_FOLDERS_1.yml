@@ -1,0 +1,81 @@
+steps:
+  CTE_FOLDERS_1-b99d69f98d1d075b6537b6bf42ba69c8149011b3918502f3f2f512031b529c7f:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+          - continueOnFailure: true
+            description: ""
+            name: Test
+            runOrder: After
+            templateString: ""
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: ffb4d921c2bffd0855708784b42373111c27d6a82405a1d8243331e5a5683495
+              stepCounter: b99d69f98d1d075b6537b6bf42ba69c8149011b3918502f3f2f512031b529c7f
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FOLDER_NAME_VALUE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 8ecf56d9be75610369f71caab827fcd62a7597649e704d7c07f26fb441bac8d3
+                stepCounter: None
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: c0859cb30735025aace95788acb9cdd5a964c211ed9f4832212e37ef3679839e
+              stepCounter: b99d69f98d1d075b6537b6bf42ba69c8149011b3918502f3f2f512031b529c7f
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: b245941aac1373a3c29ad0d22152eaa7e52fd08020371f358fb4bc30b02e3d54
+                stepCounter: None
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DEO
+                nodeName: RS_6
+            join:
+                joinCondition:FROM{ref(DEO,RS_6)} "RS_6"
+            name: CTE_FOLDERS_1
+            noLinkRefs: []
+      name: CTE_FOLDERS_1
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: b99d69f98d1d075b6537b6bf42ba69c8149011b3918502f3f2f512031b529c7f

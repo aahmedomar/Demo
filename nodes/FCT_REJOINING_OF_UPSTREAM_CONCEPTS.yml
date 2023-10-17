@@ -1,0 +1,183 @@
+steps:
+  FCT_REJOINING_OF_UPSTREAM_CONCEPTS-a279e7a85f5fb43926dfb9280f19f0a929d038ae77dfda49307c13497097ea5f:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationName: DEO
+      materializationType: table
+      metadata:
+        appliedNodeTests:
+        columns: 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 0c551c42d0d8699d17df20d3fbd913a06a8762f7abb193ec0e483075ce6506eb
+            stepCounter: a279e7a85f5fb43926dfb9280f19f0a929d038ae77dfda49307c13497097ea5f
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: PARENT
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 721a4633590ebb459f147cc710a8c71bd557c3263019d02ebc195a84ac6a5965
+            stepCounter: a279e7a85f5fb43926dfb9280f19f0a929d038ae77dfda49307c13497097ea5f
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: CHILD
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 6de76ffcd3e97cfc58c97b4a664a626140ca13c8ec54ab65c3186d324623d423
+              stepCounter: 67ac0773d912f04c9ffae32b33f5913636a1acde6d6d5f2262f7d0361dbbcaeb
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 62aba9621e3c510031738b0ea25c0c1ff6e273c1174bfd0d8d45c7998b91758d
+            stepCounter: a279e7a85f5fb43926dfb9280f19f0a929d038ae77dfda49307c13497097ea5f
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: PARENT_AND_CHILD
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: "" 
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 4da0bf3472dee4fb0ae9ecca81fa62ec6bf55f3e4d7d950454c2ac94b16b3b9d
+            stepCounter: a279e7a85f5fb43926dfb9280f19f0a929d038ae77dfda49307c13497097ea5f
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: IS_LOOP_INDEPENDENT
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: None
+              stepCounter: None
+            transform: ""
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: a279e7a85f5fb43926dfb9280f19f0a929d038ae77dfda49307c13497097ea5f
+          config:
+          dataType: TIMESTAMP
+          defaultValue: ""
+          description: ""
+          hashColumns: []
+          isSystemCreateDate: true
+          name: SYSTEM_CREATE_DATE
+          nullable: true
+          sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: a279e7a85f5fb43926dfb9280f19f0a929d038ae77dfda49307c13497097ea5f
+          config:
+          dataType: TIMESTAMP
+          defaultValue: ""
+          description: ""
+          hashColumns: []
+          isSystemUpdateDate: true
+          name: SYSTEM_UPDATE_DATE
+          nullable: true
+          sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        - acceptedValues:
+            strictMatch: false
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: cfd6bd03-9b3b-4f64-abf0-808501813d4e
+            stepCounter: a86f7584-202d-4d2d-b638-5448ef0bdc29
+          dataType: NUMBER(12,2)
+          description: ""
+          name: PS_SUPPLYCOST
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 4ffeb866-ed69-46bc-a17b-514b658768a7
+              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
+            transform: ""
+        - acceptedValues:
+            strictMatch: false
+            values: []
+          appliedColumnTests:
+          columnReference:
+            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            stepCounter: a279e7a85f5fb43926dfb9280f19f0a929d038ae77dfda49307c13497097ea5f
+          dataType: NUMBER(38,0)
+          description: ""
+          name: PS_AVAILQTY
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: b98fb5d0-f185-4803-9cc6-b05173f5cd75
+              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
+            transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+        - customSQL:
+            customSQL: ""
+          dependencies:
+          - locationName: DEO
+            nodeName: RS_3
+          join:
+            joinCondition: FROM { ref(DEO, RS_3) } "RS_3"
+          name: FCT_REJOINING_OF_UPSTREAM_CONCEPTS
+          noLinkRefs: []
+      name: FCT_REJOINING_OF_UPSTREAM_CONCEPTS
+      overrideSQL: false
+      schema: ""
+      sqlType: Fact
+      type: sql
+    stepCounter: a279e7a85f5fb43926dfb9280f19f0a929d038ae77dfda49307c13497097ea5f

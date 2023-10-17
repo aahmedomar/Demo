@@ -1,0 +1,70 @@
+steps:
+  CUSTOMERS-6a236fb7-28a8-4fd1-89fc-f9e74fa6341a:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationID: ""
+      locationName: JAFFLE_SHOP
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8d621d66-08f3-4a08-b3f3-bec7293694bc
+              stepCounter: 6a236fb7-28a8-4fd1-89fc-f9e74fa6341a
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: FIRST_NAME
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: c47c4c00-e7a5-42cc-97e2-1327511856d0
+              stepCounter: 6a236fb7-28a8-4fd1-89fc-f9e74fa6341a
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 5c236aa3-a404-449f-9463-e9bfcd5b15e4
+              stepCounter: 6a236fb7-28a8-4fd1-89fc-f9e74fa6341a
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: LAST_NAME
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM { ref(f'JAFFLE_SHOP', 'CUSTOMERS') }
+      name: CUSTOMERS
+      schema: ""
+      sqlType: Source
+      table: CUSTOMERS
+      type: sourceInput
+    stepCounter: 6a236fb7-28a8-4fd1-89fc-f9e74fa6341a

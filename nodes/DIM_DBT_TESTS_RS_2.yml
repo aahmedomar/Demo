@@ -1,0 +1,81 @@
+steps:
+  RS_2-88434f44d30424c562da64b27944448d351dd58ac02a8b06da4e09f937b76877:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+          - continueOnFailure: true
+            description: ""
+            name: Test
+            runOrder: After
+            templateString: ""
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9078b32934c68832a6c87a99e6cb46bc5e545349dc383187d52b52f648d8d84f
+              stepCounter: 88434f44d30424c562da64b27944448d351dd58ac02a8b06da4e09f937b76877
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COMMAND_INVOCATION_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 8bcb2cc6a05ddba8abc2db06fcb69ae72a5d1746bfc2f2f01234f4bf30bd24ab
+                stepCounter: 527f0351d17b3b5efd8e4039f3e004b59e09e56a3db447715059a2202678e625
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e8c549ec16ddad9f98c499fe8fba50e59c8819ab245b4572e1151eea0eafe502
+              stepCounter: 88434f44d30424c562da64b27944448d351dd58ac02a8b06da4e09f937b76877
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: STATUS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 6bb303410717bb4d5b3b78703ca5469c670dfd5df189c6b8dcef983fbff61e71
+                stepCounter: 527f0351d17b3b5efd8e4039f3e004b59e09e56a3db447715059a2202678e625
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DEO
+                nodeName: STG_DBT__MODEL_EXECUTIONS
+            join:
+                joinCondition:FROM{ref(DEO,STG_DBT__MODEL_EXECUTIONS)} "STG_DBT__MODEL_EXECUTIONS"
+            name: RS_2
+            noLinkRefs: []
+      name: RS_2
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 88434f44d30424c562da64b27944448d351dd58ac02a8b06da4e09f937b76877

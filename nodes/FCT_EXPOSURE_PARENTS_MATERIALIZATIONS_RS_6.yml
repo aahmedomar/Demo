@@ -1,0 +1,81 @@
+steps:
+  RS_6-None:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+          - continueOnFailure: true
+            description: ""
+            name: Test
+            runOrder: After
+            templateString: ""
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8ecf56d9be75610369f71caab827fcd62a7597649e704d7c07f26fb441bac8d3
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FOLDER_NAME_VALUE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: a8ffc96e7ca25012fa40b8dfaea3249701fc12ab118585eefacc2317a9ab00d4
+                stepCounter: f3bf30f352f10be35c0838dad7be8cd2df86c12e59f6582e7ee8b49f15bb52d9
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: b245941aac1373a3c29ad0d22152eaa7e52fd08020371f358fb4bc30b02e3d54
+              stepCounter: None
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MODEL_TYPE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: b804875efce045ce9aa65c61c5275fbcfd2ecc36aa669c61c66a03af7ba7ce0e
+                stepCounter: f3bf30f352f10be35c0838dad7be8cd2df86c12e59f6582e7ee8b49f15bb52d9
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DEO
+                nodeName: STG_NAMING_CONVENTION_FOLDERS
+            join:
+                joinCondition:FROM{ref(DEO,STG_NAMING_CONVENTION_FOLDERS)} "STG_NAMING_CONVENTION_FOLDERS"
+            name: RS_6
+            noLinkRefs: []
+      name: RS_6
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: None

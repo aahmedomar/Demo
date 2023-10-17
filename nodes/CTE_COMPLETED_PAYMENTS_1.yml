@@ -1,0 +1,121 @@
+steps:
+  CTE_COMPLETED_PAYMENTS_1-e2d556a7dc476306a39a677303bb56b81eeba2f921a849271a205f3c5e03e87f:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+          - continueOnFailure: true
+            description: ""
+            name: Test
+            runOrder: After
+            templateString: ""
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 95d34a0c72c8475e7ce77ba2b0bf1d6ae225b6b094eb7db6458261469998dc90
+              stepCounter: e2d556a7dc476306a39a677303bb56b81eeba2f921a849271a205f3c5e03e87f
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RELATIONROWS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 1e5d2655b62e4e5c50a01b2d71edb6fa29833eb17e4586cec9111c16a6bdf917
+                stepCounter: 5d4e16c12a14db6088b8934741292ed3d1b21eff0df33c71f2b25843ce7381ba
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8b43b41bc1561daa4e9efaaee07b665e070eab2b2440f85ca7908e2fc9cec002
+              stepCounter: e2d556a7dc476306a39a677303bb56b81eeba2f921a849271a205f3c5e03e87f
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 4fc8f1d7aab78a01292ee0a8af199028fd313449c044d1666c22ba52d2d00811
+                stepCounter: 5d4e16c12a14db6088b8934741292ed3d1b21eff0df33c71f2b25843ce7381ba
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: d6acf712fb58000c99450f8c21eb7405140029676ce0fa96aec4c84d8f9229bc
+              stepCounter: e2d556a7dc476306a39a677303bb56b81eeba2f921a849271a205f3c5e03e87f
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PAYMENT_FINALIZED_DATE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: df580f3c58d49e5aaaaf5bbfd5e5f439ed69f7fadcfedb434960a0d7c14a4949
+                stepCounter: 5d4e16c12a14db6088b8934741292ed3d1b21eff0df33c71f2b25843ce7381ba
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 7344d716093f9e0b4942e2c8682f94827f6d3c3a0cf52c06cce9e22e89686409
+              stepCounter: e2d556a7dc476306a39a677303bb56b81eeba2f921a849271a205f3c5e03e87f
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TOTAL_AMOUNT_PAID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 5e2304b18c649324acfb6d1912cad164492e7f620c690a29d29ef4700cdf4818
+                stepCounter: 5d4e16c12a14db6088b8934741292ed3d1b21eff0df33c71f2b25843ce7381ba
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DEO
+                nodeName: RS_3
+            join:
+                joinCondition:FROM{ref(DEO,RS_3)} "RS_3"
+            name: CTE_COMPLETED_PAYMENTS_1
+            noLinkRefs: []
+      name: CTE_COMPLETED_PAYMENTS_1
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: e2d556a7dc476306a39a677303bb56b81eeba2f921a849271a205f3c5e03e87f

@@ -1,0 +1,116 @@
+steps:
+  STG_NODE_RELATIONSHIPS-7473a274316535ae4b6d1dfda1117f0773fdd86c77a0a3ccf29fe5ae6314bcc6:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DEO
+      materializationType: Table
+      metadata:
+        appliedNodeTests:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 04285e5b563d64c38accb3e4946aaf67491a724b293f28936f5eb227c7203a55
+              stepCounter: 7473a274316535ae4b6d1dfda1117f0773fdd86c77a0a3ccf29fe5ae6314bcc6
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DIRECT_PARENT_ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 0592a9717a86d1bad75d953a0e7f1916817b8976f098ff67a5b8a33619e9e6a3
+              stepCounter: 7473a274316535ae4b6d1dfda1117f0773fdd86c77a0a3ccf29fe5ae6314bcc6
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: IS_PRIMARY_RELATIONSHIP
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8a5ff7ab8be258ab5d9b19bf30636f9559c5cedb8f51dc01d7bbc76fbd66efdf
+              stepCounter: 7473a274316535ae4b6d1dfda1117f0773fdd86c77a0a3ccf29fe5ae6314bcc6
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RESOURCE_ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: c428eca31ee066d9f9520dcdd4036302a743d8d40898d607bf4613deff231d33
+              stepCounter: 7473a274316535ae4b6d1dfda1117f0773fdd86c77a0a3ccf29fe5ae6314bcc6
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: UNIQUE_ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: No source_counter
+                    stepCounter: No Source Step id
+                transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: No Source Model
+                nodeName: No Source Name
+            join:
+              joinCondition: FROM{ref(No Source Model,No Source Name)} "No Source Name"
+            name: STG_NODE_RELATIONSHIPS
+            noLinkRefs: []
+      name: STG_NODE_RELATIONSHIPS
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 7473a274316535ae4b6d1dfda1117f0773fdd86c77a0a3ccf29fe5ae6314bcc6
