@@ -13,14 +13,9 @@ steps:
       isDataVault: false
       isMultisource: true
       locationName: DEO
-      materializationType: "model"
+      materializationType: Table
       metadata:
-        appliedNodeTests:
-          - continueOnFailure: true
-            description: ""
-            name: equal_rowcount
-            runOrder: After
-            templateString: ""
+        appliedNodeTests: []
         columns:
           - acceptedValues:
               strictMatch: true
@@ -49,7 +44,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: be1f2401690ff81ba9d76ffb1775123405e2147b315a46fe981a181b27f810d6
+              columnCounter: f93c63ccd2ec91eb59a4a8eb8933fa7f62004116e486f8b927a06612e634cc1f
               stepCounter: de0f31a23455f20e466a739bbaee3f3a4c0d74f5791dd7b82bbeb5d3a0cf1805
             dataType: ""
             description: ""
@@ -69,7 +64,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: f568f71c007e88d56f2349ecf963f72a5ba2248d54f6c64dd805355c160fa605
+              columnCounter: 9034d111d3c890c17ee9d8d55611a9b262f381b41a30860d5c71aff82d34d846
               stepCounter: de0f31a23455f20e466a739bbaee3f3a4c0d74f5791dd7b82bbeb5d3a0cf1805
             dataType: ""
             description: ""
@@ -89,7 +84,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: ca50b7e897a059f8723f9d169a6004ed8de62493138c8082dc02e0e4059b038e
+              columnCounter: c9f00143a18871c3bb6acc6d8fdc8f77ab4c0021ea92deb197a5f661169d3877
               stepCounter: de0f31a23455f20e466a739bbaee3f3a4c0d74f5791dd7b82bbeb5d3a0cf1805
             dataType: ""
             description: ""

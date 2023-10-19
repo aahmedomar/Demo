@@ -1,5 +1,5 @@
 steps:
-  CUSTOMERS-6a236fb7-28a8-4fd1-89fc-f9e74fa6341a:
+  CUSTOMERS-19043c60-5585-49e8-aaf2-4ddd9ff2c597:
     operation:
       database: ""
       dataset: ""
@@ -16,8 +16,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 8d621d66-08f3-4a08-b3f3-bec7293694bc
-              stepCounter: 6a236fb7-28a8-4fd1-89fc-f9e74fa6341a
+              columnCounter: 38f4c2e1-e6f9-4131-8201-fa3fda4a39d5
+              stepCounter: 19043c60-5585-49e8-aaf2-4ddd9ff2c597
             config: 
             dataType: 
             defaultValue: ""
@@ -33,8 +33,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: c47c4c00-e7a5-42cc-97e2-1327511856d0
-              stepCounter: 6a236fb7-28a8-4fd1-89fc-f9e74fa6341a
+              columnCounter: 96efeb77-a762-4b49-962e-7d3922109375
+              stepCounter: 19043c60-5585-49e8-aaf2-4ddd9ff2c597
             config: 
             dataType: 
             defaultValue: ""
@@ -50,8 +50,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 5c236aa3-a404-449f-9463-e9bfcd5b15e4
-              stepCounter: 6a236fb7-28a8-4fd1-89fc-f9e74fa6341a
+              columnCounter: 3e85d033-3e06-45e2-9e9d-139906f4df0d
+              stepCounter: 19043c60-5585-49e8-aaf2-4ddd9ff2c597
             config: 
             dataType: 
             defaultValue: ""
@@ -67,4 +67,4 @@ steps:
       sqlType: Source
       table: CUSTOMERS
       type: sourceInput
-    stepCounter: 6a236fb7-28a8-4fd1-89fc-f9e74fa6341a
+    stepCounter: 19043c60-5585-49e8-aaf2-4ddd9ff2c597

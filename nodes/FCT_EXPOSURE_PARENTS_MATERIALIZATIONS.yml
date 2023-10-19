@@ -1,5 +1,5 @@
 steps:
-  FCT_EXPOSURE_PARENTS_MATERIALIZATIONS-6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380:
+  FCT_EXPOSURE_PARENTS_MATERIALIZATIONS-86a562517b0ab2c77c1af390a0302bcee68c0bd3c5924dd6e4b799e76d3f8440:
     operation:
       config:
         postSQL: ""
@@ -13,7 +13,7 @@ steps:
       locationName: DEO
       materializationType: table
       metadata:
-        appliedNodeTests:
+        appliedNodeTests: []
         columns: 
         - acceptedValues:
             strictMatch: true
@@ -22,8 +22,8 @@ steps:
             hasNull: true
             isDistinct: false
           columnReference:
-            columnCounter: 799f016064ff51dea5a303dcaf5362caf30529a95fbfdd1d8048802490356ffd
-            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+            columnCounter: 53d3ab976db41c2ccb60d1f0baa96978b8446749bd111f711675269675d3d9aa
+            stepCounter: 86a562517b0ab2c77c1af390a0302bcee68c0bd3c5924dd6e4b799e76d3f8440
           dataType: ""
           description: ""
           hashColumns: []
@@ -42,8 +42,8 @@ steps:
             hasNull: true
             isDistinct: false
           columnReference:
-            columnCounter: 0d2985bd23c797c433582c04597e9d1b84ecd013ba1fc9d324432d81bdf84701
-            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+            columnCounter: ee8dde92e6b80e11eec18179656c0ef741a4a2db96055896816a8bad7811f9bf
+            stepCounter: 86a562517b0ab2c77c1af390a0302bcee68c0bd3c5924dd6e4b799e76d3f8440
           dataType: ""
           description: ""
           hashColumns: []
@@ -62,8 +62,8 @@ steps:
             hasNull: true
             isDistinct: false
           columnReference:
-            columnCounter: 4e948d58bdf2be858e256320a4896951bbdcd4c38e83bf4fc3e246fae8793143
-            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+            columnCounter: 2611b0cda2bc1ef1eca32eb16e405894f05b62bda976654754bf2723960381e5
+            stepCounter: 86a562517b0ab2c77c1af390a0302bcee68c0bd3c5924dd6e4b799e76d3f8440
           dataType: ""
           description: ""
           hashColumns: []
@@ -82,8 +82,8 @@ steps:
             hasNull: true
             isDistinct: false
           columnReference:
-            columnCounter: bba467a1c3b4d879a283d4e9cf19e3746b492a7affbc9c60912438e7b553f176
-            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+            columnCounter: 0961f78e01f3f3cdfb5705b7e9e53a699ffd159e1546b85e368d02652be5c7cf
+            stepCounter: 86a562517b0ab2c77c1af390a0302bcee68c0bd3c5924dd6e4b799e76d3f8440
           dataType: ""
           description: ""
           hashColumns: []
@@ -100,8 +100,8 @@ steps:
             values: []
           appliedColumnTests:
           columnReference:
-            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
-            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+            columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
+            stepCounter: 86a562517b0ab2c77c1af390a0302bcee68c0bd3c5924dd6e4b799e76d3f8440
           config:
           dataType: TIMESTAMP
           defaultValue: ""
@@ -118,8 +118,8 @@ steps:
             values: []
           appliedColumnTests:
           columnReference:
-            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
-            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+            columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
+            stepCounter: 86a562517b0ab2c77c1af390a0302bcee68c0bd3c5924dd6e4b799e76d3f8440
           config:
           dataType: TIMESTAMP
           defaultValue: ""
@@ -152,8 +152,8 @@ steps:
             values: []
           appliedColumnTests:
           columnReference:
-            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
-            stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+            columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
+            stepCounter: 86a562517b0ab2c77c1af390a0302bcee68c0bd3c5924dd6e4b799e76d3f8440
           dataType: NUMBER(38,0)
           description: ""
           name: PS_AVAILQTY
@@ -180,4 +180,4 @@ steps:
       schema: ""
       sqlType: Fact
       type: sql
-    stepCounter: 6e4b281c8d50cf4e5ac77320ba8d2041101567a4cccc45dfd29c6fb54a871380
+    stepCounter: 86a562517b0ab2c77c1af390a0302bcee68c0bd3c5924dd6e4b799e76d3f8440

@@ -1,5 +1,5 @@
 steps:
-  STG_NAMING_CONVENTION_FOLDERS-f3bf30f352f10be35c0838dad7be8cd2df86c12e59f6582e7ee8b49f15bb52d9:
+  STG_NAMING_CONVENTION_FOLDERS-1504fc209041016c6ceadd1c449cd013d16ef626738ba9d6c0610e8b0a4702ab:
     operation:
       config:
         insertStrategy: INSERT
@@ -15,7 +15,7 @@ steps:
       locationName: DEO
       materializationType: Table
       metadata:
-        appliedNodeTests:
+        appliedNodeTests: []
         columns:
           - acceptedValues:
               strictMatch: true
@@ -24,8 +24,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: a8ffc96e7ca25012fa40b8dfaea3249701fc12ab118585eefacc2317a9ab00d4
-              stepCounter: f3bf30f352f10be35c0838dad7be8cd2df86c12e59f6582e7ee8b49f15bb52d9
+              columnCounter: 3373b80ddfb93c9ac02d027397a7bc8108c09e28800e5ba1f5ca074f5030451f
+              stepCounter: 1504fc209041016c6ceadd1c449cd013d16ef626738ba9d6c0610e8b0a4702ab
             dataType: ""
             description: ""
             hashColumns: []
@@ -44,8 +44,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: b804875efce045ce9aa65c61c5275fbcfd2ecc36aa669c61c66a03af7ba7ce0e
-              stepCounter: f3bf30f352f10be35c0838dad7be8cd2df86c12e59f6582e7ee8b49f15bb52d9
+              columnCounter: a8dbe4aea51a7689c79aa1f5c0fc86be25db8df5af3cbce248b3e6d63c6ba328
+              stepCounter: 1504fc209041016c6ceadd1c449cd013d16ef626738ba9d6c0610e8b0a4702ab
             dataType: ""
             description: ""
             hashColumns: []
@@ -64,8 +64,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: b5ae41c2c1a34793a4e5096a7432809a0e3f01b8096cdf492d4013e31d0b94e2
-              stepCounter: f3bf30f352f10be35c0838dad7be8cd2df86c12e59f6582e7ee8b49f15bb52d9
+              columnCounter: ce07fe9cad9d00ad240b30323ee3ff994de9fdd786b3c9a46f1f923a3b3636a5
+              stepCounter: 1504fc209041016c6ceadd1c449cd013d16ef626738ba9d6c0610e8b0a4702ab
             dataType: ""
             description: ""
             hashColumns: []
@@ -93,4 +93,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: f3bf30f352f10be35c0838dad7be8cd2df86c12e59f6582e7ee8b49f15bb52d9
+    stepCounter: 1504fc209041016c6ceadd1c449cd013d16ef626738ba9d6c0610e8b0a4702ab

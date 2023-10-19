@@ -11,16 +11,16 @@ steps:
       isDataVault: false
       isMultisource: false
       locationName: DEO
-      materializationType: "model"
+      materializationType: model
       metadata:
-        appliedNodeTests:
+        appliedNodeTests: []
         columns:
           - acceptedValues:
               strictMatch: true
               values: []
             appliedColumnTests: 
             columnReference:
-              columnCounter: 362e22db-31d9-4d92-97af-99eb1f5d17ad
+              columnCounter: fec6b571-067a-4fbd-bce0-d285bbed0a75
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             config: 
             dataType: NUMBER
@@ -61,7 +61,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 6e40488e3980afd6717ddac51dbba614cc733c9bcf411965d7671984cd06f8df
+              columnCounter: 0345c579eb6ba4d40a92f7528dfd02b2216b77e3c05211d2bdb9ecb3e15c5982
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             dataType: ""
             description: ""
@@ -82,7 +82,7 @@ steps:
               hasNull: false
               isDistinct: true
             columnReference:
-              columnCounter: 76321c04fa9487e0a3d695c65802aeeb10403759d73abb36b75192be63a0b909
+              columnCounter: 4cfa97d251070869221926c40f92f02eb23badd2df0f19efcfb8211c662c6773
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             dataType: ""
             description: ""
@@ -103,7 +103,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 7222ee88cb754ac7331c93aeff65abe17a47e6c893106f46b77d4db490124522
+              columnCounter: 3073949c556fc81fe97e1bab69ceb1c27e66782f79200c295b69c148a601d83f
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             dataType: ""
             description: ""
@@ -124,7 +124,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 126be6e722d1b5c537ed239690652f8858aaed6ee32481c24ec7dcab206acd8f
+              columnCounter: dc2a59004f1aad24d362acf8de35183b29cc807eb40b277647b84a92a8bc24f5
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             dataType: ""
             description: ""
@@ -145,7 +145,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: cb887fa2b07941a267333637d96b2db1979eba4521bd3111d3201920cf197564
+              columnCounter: ff293e55f1c1c1e8533c46f695c2ea4195cac734ed53496dc7786c633f8629dd
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             dataType: ""
             description: ""
@@ -166,7 +166,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: b243a539ab77f8ec78fdd7c3ca86cfd0b857d2fcca7d2c98e03f5e60fd057387
+              columnCounter: 7a000f4e8074261963e6cf9fd78fa2f685af0604b3b87cc2a6fc0a49832e58c0
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             dataType: ""
             description: ""
@@ -187,7 +187,7 @@ steps:
               hasNull: false
               isDistinct: true
             columnReference:
-              columnCounter: 1e5e5e071d41399dcd0a7634c9cf2f1b814807a4566a14a2c2550bb394f79de2
+              columnCounter: 58cc418f7404ebdde2ea5dd5553a48b3fbdfe35c2d590f56690ebca712479941
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             dataType: ""
             description: ""
@@ -208,7 +208,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 9171524a11065f7c51bd33fa5c5284379290ad0c02c7da28f73d0f19b81e6488
+              columnCounter: b45dc2e7ac64318a59ef6117167806312f7991c128a88601f6406b2fc56adb8e
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             dataType: ""
             description: ""
@@ -229,7 +229,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 1a0f51b0daad3179af2d6c28ebc8b8ba46a780d294b344cb7f00a3468d01019d
+              columnCounter: 5c5dffb647a405e0b5863003bd24e23e8526cabb842246ccb7762ff9c7535d6d
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             dataType: ""
             description: ""
@@ -250,7 +250,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 3b33693a8355208dcfe91039626dd645f67a1b703bdf09856341d6e67f7f1cf5
+              columnCounter: 39aa58d47adb3c0f3fb166e9bf56c9427b2bdb469711b60ea220a0f27a44a38a
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             dataType: ""
             description: ""
@@ -271,7 +271,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: bc3d1cd1cb0edad77353a0e0740d92baf4083baf023cbf5730f71749af533372
+              columnCounter: ec269fbffe8f187e8f5d65d08c1dea5ba61bd50576f74b1f25ef8eaea025b710
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             dataType: ""
             description: ""
@@ -292,7 +292,7 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: f8a04ff528edcd97aaed235e569b1fb54ebc95761736f98e036f6033800eed40
+              columnCounter: 19d34425efe41886c60b102fd14a963d7d899ba367678c247d5b450dd492ec83
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             dataType: ""
             description: ""
@@ -311,7 +311,7 @@ steps:
               values: []
             appliedColumnTests:
             columnReference:
-              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             config:
             dataType: NUMBER
@@ -329,7 +329,7 @@ steps:
               values: []
             appliedColumnTests:
             columnReference:
-              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             config:
             dataType: VARCHAR
@@ -347,7 +347,7 @@ steps:
               values: []
             appliedColumnTests:
             columnReference:
-              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             config:
             dataType: TIMESTAMP
@@ -365,7 +365,7 @@ steps:
               values: []
             appliedColumnTests:
             columnReference:
-              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             config:
             dataType: TIMESTAMP
@@ -383,7 +383,7 @@ steps:
               values: []
             appliedColumnTests:
             columnReference:
-              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             config:
             dataType: TIMESTAMP
@@ -401,7 +401,7 @@ steps:
               values: []
             appliedColumnTests:
             columnReference:
-              columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+              columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
               stepCounter: babe6985130a6239a309e0447e8f6e56e0b9bd50833c3efe8d6cfdb1e833eb7e
             config:
             dataType: TIMESTAMP

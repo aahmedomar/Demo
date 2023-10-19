@@ -13,7 +13,7 @@ steps:
       locationName: DEO
       materializationType: table
       metadata:
-        appliedNodeTests:
+        appliedNodeTests: []
         columns: 
         - acceptedValues:
             strictMatch: true
@@ -22,7 +22,7 @@ steps:
             hasNull: true
             isDistinct: false
           columnReference:
-            columnCounter: 3fec2c33548cd0bd1cf184c3a336b08e473109d95ed593658550cfc5b77230f3
+            columnCounter: 2c9eaaad29252e311bf57278a3381bb8c655684417e92a9dd632ec08499d5f39
             stepCounter: 493c48746920d84ebf2257bda6ffec1ad6e9840fddfbdeb88cf44bc16ef5c463
           dataType: ""
           description: ""
@@ -42,7 +42,7 @@ steps:
             hasNull: true
             isDistinct: false
           columnReference:
-            columnCounter: 056ac6567c2bcd8cbd15595a41acbb86d0992639c8d8002c5ebc39d4d4c636c7
+            columnCounter: f0bcc9cb688e689d4650e9c4f47420e7bde9a49be25ddd9bd14c72e49f06696c
             stepCounter: 493c48746920d84ebf2257bda6ffec1ad6e9840fddfbdeb88cf44bc16ef5c463
           dataType: ""
           description: ""
@@ -60,7 +60,7 @@ steps:
             values: []
           appliedColumnTests:
           columnReference:
-            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
             stepCounter: 493c48746920d84ebf2257bda6ffec1ad6e9840fddfbdeb88cf44bc16ef5c463
           config:
           dataType: TIMESTAMP
@@ -78,7 +78,7 @@ steps:
             values: []
           appliedColumnTests:
           columnReference:
-            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
             stepCounter: 493c48746920d84ebf2257bda6ffec1ad6e9840fddfbdeb88cf44bc16ef5c463
           config:
           dataType: TIMESTAMP
@@ -112,7 +112,7 @@ steps:
             values: []
           appliedColumnTests:
           columnReference:
-            columnCounter: 1ea09244-9380-40f5-955b-e0f5acd3e07e
+            columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
             stepCounter: 493c48746920d84ebf2257bda6ffec1ad6e9840fddfbdeb88cf44bc16ef5c463
           dataType: NUMBER(38,0)
           description: ""

@@ -13,43 +13,13 @@ steps:
       isDataVault: false
       isMultisource: true
       locationName: DEO
-      materializationType: "model"
+      materializationType: Table
       metadata:
-        appliedNodeTests:
-          
-          - continueOnFailure: true
-            description: ""
-            name: equal_rowcount
-            runOrder: After
-            templateString: ""
-            
-          - continueOnFailure: true
-            description: ""
-            name: expression_is_true
-            runOrder: After
-            templateString: ""
-            
-          - continueOnFailure: true
-            description: ""
-            name: not_constant
-            runOrder: After
-            templateString: ""
-            
-          - continueOnFailure: true
-            description: ""
-            name: not_accepted_values
-            runOrder: After
-            templateString: ""
-            
-          - continueOnFailure: true
-            description: ""
-            name: not_empty_string
-            runOrder: After
-            templateString: ""
+        appliedNodeTests: []
         columns:
           - acceptedValues:
               strictMatch: true
-              values: ['']
+              values: []
             appliedColumnTests:
               hasNull: false
               isDistinct: true
@@ -89,32 +59,12 @@ steps:
                 transform: ""
           - acceptedValues:
               strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 8d107251e46f8d0a9ee0c1089d3b7ac8b6c09a0bdc12cda813ead17d8d83992d
-              stepCounter: ed6d225ae8e15bbca44aff0b39245cbabfd33fd8ffa1057044fbc355dfbaeb03
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: ORDER_DATE
-            nullable: false
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: bc9698350cca685d73b226d492fc124e3cf415a300b6fa8ef298bf0227a74009
-                    stepCounter: babcde7a00923dfe54e9b7c82e2226673c24f7a78b6756cadb3de30dc7e5842e
-                transform: ""
-          - acceptedValues:
-              strictMatch: true
               values: ['']
             appliedColumnTests:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: b62cc4f6b42eaaeef9994405a0083d70789eb6f69425a91ad232b7d00e5b5a92
+              columnCounter: 3cf75e67a79133ce82b57fd6fe2e3dd9d172fce3282627470233ffb0b4a5bf2a
               stepCounter: ed6d225ae8e15bbca44aff0b39245cbabfd33fd8ffa1057044fbc355dfbaeb03
             dataType: ""
             description: ""
@@ -134,7 +84,27 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 5d09bc93ff01da971db7fbe8b552736b2d3e498d6c7b9ee3252cc7e9a45396a0
+              columnCounter: 11b84898e5379750c54d0b7824cfd513f775c8ab6e0f4d5bddbe1e41d407940b
+              stepCounter: ed6d225ae8e15bbca44aff0b39245cbabfd33fd8ffa1057044fbc355dfbaeb03
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_DATE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: bc9698350cca685d73b226d492fc124e3cf415a300b6fa8ef298bf0227a74009
+                    stepCounter: babcde7a00923dfe54e9b7c82e2226673c24f7a78b6756cadb3de30dc7e5842e
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: af0cac68db13d8439c4cc20fc2e6455462aa9828247b0f9e0aff4d4576c640cb
               stepCounter: ed6d225ae8e15bbca44aff0b39245cbabfd33fd8ffa1057044fbc355dfbaeb03
             dataType: ""
             description: ""
