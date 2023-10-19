@@ -1,5 +1,5 @@
 steps:
-  STG_NAMING_CONVENTION_PREFIXES-f1136a198611c2b9b44881562fb686ebcce38405602da74936d94cca95e68b08:
+  STG_NAMING_CONVENTION_PREFIXES-cc0a8b09184a74e17aa8c74cf8fd67dc2c7180e6dc545240a2f3084e769f5603:
     operation:
       config:
         insertStrategy: INSERT
@@ -24,8 +24,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: dc85abd6a537262bb34e38e8f0396cd16dd65573a5616abeecd76b0079a0e1ee
-              stepCounter: f1136a198611c2b9b44881562fb686ebcce38405602da74936d94cca95e68b08
+              columnCounter: ec734c36f6205d9758e1ec0eb372a97d09e38f5543cf7cdef2e22505eafb5f05
+              stepCounter: cc0a8b09184a74e17aa8c74cf8fd67dc2c7180e6dc545240a2f3084e769f5603
             dataType: ""
             description: ""
             hashColumns: []
@@ -44,53 +44,13 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: a589cb3e720f587acb3fe9e2a7ebf965736e54ae4d5b882fa8383459ac83d49d
-              stepCounter: f1136a198611c2b9b44881562fb686ebcce38405602da74936d94cca95e68b08
+              columnCounter: f09552f86d9a69707ac6658bf3223d73a28c6ade0a6ab6b6a4b39a2e0b62dbd5
+              stepCounter: cc0a8b09184a74e17aa8c74cf8fd67dc2c7180e6dc545240a2f3084e769f5603
             dataType: ""
             description: ""
             hashColumns: []
             hashDetails: null
             name: PREFIX_VALUE
-            nullable: false
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: No source_counter
-                    stepCounter: No Source Step id
-                transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 0b84f4c6ba290eca5ba7c9b4a31cab77dafe52b31eae16ae0a33c8e3f9e0c975
-              stepCounter: f1136a198611c2b9b44881562fb686ebcce38405602da74936d94cca95e68b08
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: UNIQUE_ID
-            nullable: false
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: No source_counter
-                    stepCounter: No Source Step id
-                transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 3dcac88e276fc3bafc529f5bfd7bef74eff535f149d1e49d1e74e6f89de76ed0
-              stepCounter: f1136a198611c2b9b44881562fb686ebcce38405602da74936d94cca95e68b08
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: PREFIX_NAME
             nullable: false
             sourceColumnReferences:
               - columnReferences:
@@ -113,4 +73,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: f1136a198611c2b9b44881562fb686ebcce38405602da74936d94cca95e68b08
+    stepCounter: cc0a8b09184a74e17aa8c74cf8fd67dc2c7180e6dc545240a2f3084e769f5603

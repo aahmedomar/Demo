@@ -1,5 +1,5 @@
 steps:
-  CTE_INVOCATION_ERROR_COUNTING_1-16debf74d7df5d138c89d35105b46e689affedb56dead913a1375057d7734aad:
+  CTE_INVOCATION_ERROR_COUNTING_1-9ca032476812c8a516de79bba8c6753f74618a7949ffef94845f4a5f96806578:
     operation:
       config:
         insertStrategy: INSERT
@@ -29,8 +29,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 8912eb986f312df66a82b23cb10fe4b649d3badd4f6872afc36d94bb4faccd12
-              stepCounter: 16debf74d7df5d138c89d35105b46e689affedb56dead913a1375057d7734aad
+              columnCounter: 6df80317bec52da819e901dece564f16b8c9aef385f7eaccb26d1200c4bb9a58
+              stepCounter: 9ca032476812c8a516de79bba8c6753f74618a7949ffef94845f4a5f96806578
             dataType: ""
             description: ""
             hashColumns: []
@@ -39,7 +39,7 @@ steps:
             nullable: false
             sourceColumnReferences:
             - columnReferences:
-              - columnCounter: 81d481d7eb79795831200d3186f0e948eedcafa34c2b969018da4b78441999a7
+              - columnCounter: 2ee1637a1848178e9ef94c17b6693b884a46dbae552ff1c677524d0be4b3a0e5
                 stepCounter: None
               transform: ""
           - acceptedValues:
@@ -49,8 +49,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 55c0d6360c50cb477bc8b434a2b7d7d7c82b2217dbc5801e9cd09702593fc25e
-              stepCounter: 16debf74d7df5d138c89d35105b46e689affedb56dead913a1375057d7734aad
+              columnCounter: 2db051d49b047469c4e49d971474379dc78174d014a1dc5c4ed0b552e83313a4
+              stepCounter: 9ca032476812c8a516de79bba8c6753f74618a7949ffef94845f4a5f96806578
             dataType: ""
             description: ""
             hashColumns: []
@@ -59,7 +59,7 @@ steps:
             nullable: false
             sourceColumnReferences:
             - columnReferences:
-              - columnCounter: 0de7abe41385e09cf1ad894d2c769b0b0a6f2e4f627cfc5bf5af8520fa6a829e
+              - columnCounter: 6adcba117dc8b4e4311449d6b714942c5a4b46991dfbe36ee1f06f3d802957a3
                 stepCounter: None
               transform: ""
         enabledColumnTestIDs: []
@@ -68,9 +68,9 @@ steps:
               customSQL: ""
             dependencies:
               - locationName: DEO
-                nodeName: RS_10
+                nodeName: FCT_DBT__INVOCATIONS_RS_10
             join:
-                joinCondition:FROM{ref(DEO,RS_10)} "RS_10"
+                joinCondition:FROM{ref(DEO,FCT_DBT__INVOCATIONS_RS_10)} "FCT_DBT__INVOCATIONS_RS_10"
             name: CTE_INVOCATION_ERROR_COUNTING_1
             noLinkRefs: []
       name: CTE_INVOCATION_ERROR_COUNTING_1
@@ -78,4 +78,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 16debf74d7df5d138c89d35105b46e689affedb56dead913a1375057d7734aad
+    stepCounter: 9ca032476812c8a516de79bba8c6753f74618a7949ffef94845f4a5f96806578

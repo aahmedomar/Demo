@@ -1,5 +1,5 @@
 steps:
-  ORDERS-cbc3ba29-4207-4223-af74-11af967d7d87:
+  ORDERS-3686ec084a7ef567610ce31276600c62e72ff17d382cf827334f5a8ff1587971:
     operation:
       database: ""
       dataset: ""
@@ -9,74 +9,6 @@ steps:
       locationName: JAFFLE_SHOP
       metadata:
         columns:
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: bd0183d9-085e-47d2-8d22-cb525a05d0b8
-              stepCounter: cbc3ba29-4207-4223-af74-11af967d7d87
-            config: 
-            dataType: 
-            defaultValue: ""
-            description: ""
-            name: ID
-            nullable: false
-            primaryKey: false
-            uniqueKey: false
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: c07777e9-e26e-4376-8e04-7855da30ed2a
-              stepCounter: cbc3ba29-4207-4223-af74-11af967d7d87
-            config: 
-            dataType: 
-            defaultValue: ""
-            description: ""
-            name: ORDER_DATE
-            nullable: false
-            primaryKey: false
-            uniqueKey: false
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 548d9a58-9598-4eb8-a732-7bad2195d891
-              stepCounter: cbc3ba29-4207-4223-af74-11af967d7d87
-            config: 
-            dataType: 
-            defaultValue: ""
-            description: ""
-            name: STATUS
-            nullable: false
-            primaryKey: false
-            uniqueKey: false
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: ffa59e57-0204-46dd-af2e-522633912df7
-              stepCounter: cbc3ba29-4207-4223-af74-11af967d7d87
-            config: 
-            dataType: 
-            defaultValue: ""
-            description: ""
-            name: USER_ID
-            nullable: false
-            primaryKey: false
-            uniqueKey: false
         join:
           joinCondition: FROM { ref(f'JAFFLE_SHOP', 'ORDERS') }
       name: ORDERS
@@ -84,4 +16,4 @@ steps:
       sqlType: Source
       table: ORDERS
       type: sourceInput
-    stepCounter: cbc3ba29-4207-4223-af74-11af967d7d87
+    stepCounter: 3686ec084a7ef567610ce31276600c62e72ff17d382cf827334f5a8ff1587971

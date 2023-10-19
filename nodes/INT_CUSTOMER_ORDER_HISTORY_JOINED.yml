@@ -1,5 +1,5 @@
 steps:
-  INT_ORDERS_PIVOTED-1e669fcbad52ef41d9347135a1d1fb8199183dcd646929b632f1b0b68386606f:
+  INT_CUSTOMER_ORDER_HISTORY_JOINED-18c64bd7e19bb7a74b3f9c9dd0f9d34867fe869c04e2c3fa5267646734aefa8d:
     operation:
       config:
         postSQL: ""
@@ -20,8 +20,8 @@ steps:
               values: []
             appliedColumnTests: 
             columnReference:
-              columnCounter: abdc3ab6-188b-4c14-9f09-cb85f5bc1576
-              stepCounter: 1e669fcbad52ef41d9347135a1d1fb8199183dcd646929b632f1b0b68386606f
+              columnCounter: 050288c5-a7e8-433b-9672-174331326f7f
+              stepCounter: 18c64bd7e19bb7a74b3f9c9dd0f9d34867fe869c04e2c3fa5267646734aefa8d
             config: 
             dataType: NUMBER
             defaultValue: ""
@@ -32,35 +32,14 @@ steps:
             nullable: true
             sourceColumnReferences:
             - columnReferences: []
-              transform: ""   
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: false
-              isDistinct: true
-            columnReference:
-              columnCounter: 990e5dc774762847c01f68c2f297b3ba0eab8a29dfc25b0447fa75d1377e6468
-              stepCounter: 1e669fcbad52ef41d9347135a1d1fb8199183dcd646929b632f1b0b68386606f
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            isBusinessKey: true
-            name: ORDER_ID
-            nullable: false
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: No Source Column Counter
-                    stepCounter: No Source Step id
-                transform: ""
+              transform: ""
           - acceptedValues:
               strictMatch: true
               values: []
             appliedColumnTests:
             columnReference:
               columnCounter: 5d2677b5-2b29-48b4-a934-38883308493a
-              stepCounter: 1e669fcbad52ef41d9347135a1d1fb8199183dcd646929b632f1b0b68386606f
+              stepCounter: 18c64bd7e19bb7a74b3f9c9dd0f9d34867fe869c04e2c3fa5267646734aefa8d
             config:
             dataType: NUMBER
             defaultValue: ""
@@ -78,7 +57,7 @@ steps:
             appliedColumnTests:
             columnReference:
               columnCounter: 5d2677b5-2b29-48b4-a934-38883308493a
-              stepCounter: 1e669fcbad52ef41d9347135a1d1fb8199183dcd646929b632f1b0b68386606f
+              stepCounter: 18c64bd7e19bb7a74b3f9c9dd0f9d34867fe869c04e2c3fa5267646734aefa8d
             config:
             dataType: VARCHAR
             defaultValue: ""
@@ -96,7 +75,7 @@ steps:
             appliedColumnTests:
             columnReference:
               columnCounter: 5d2677b5-2b29-48b4-a934-38883308493a
-              stepCounter: 1e669fcbad52ef41d9347135a1d1fb8199183dcd646929b632f1b0b68386606f
+              stepCounter: 18c64bd7e19bb7a74b3f9c9dd0f9d34867fe869c04e2c3fa5267646734aefa8d
             config:
             dataType: TIMESTAMP
             defaultValue: ""
@@ -114,7 +93,7 @@ steps:
             appliedColumnTests:
             columnReference:
               columnCounter: 5d2677b5-2b29-48b4-a934-38883308493a
-              stepCounter: 1e669fcbad52ef41d9347135a1d1fb8199183dcd646929b632f1b0b68386606f
+              stepCounter: 18c64bd7e19bb7a74b3f9c9dd0f9d34867fe869c04e2c3fa5267646734aefa8d
             config:
             dataType: TIMESTAMP
             defaultValue: ""
@@ -132,7 +111,7 @@ steps:
             appliedColumnTests:
             columnReference:
               columnCounter: 5d2677b5-2b29-48b4-a934-38883308493a
-              stepCounter: 1e669fcbad52ef41d9347135a1d1fb8199183dcd646929b632f1b0b68386606f
+              stepCounter: 18c64bd7e19bb7a74b3f9c9dd0f9d34867fe869c04e2c3fa5267646734aefa8d
             config:
             dataType: TIMESTAMP
             defaultValue: ""
@@ -150,7 +129,7 @@ steps:
             appliedColumnTests:
             columnReference:
               columnCounter: 5d2677b5-2b29-48b4-a934-38883308493a
-              stepCounter: 1e669fcbad52ef41d9347135a1d1fb8199183dcd646929b632f1b0b68386606f
+              stepCounter: 18c64bd7e19bb7a74b3f9c9dd0f9d34867fe869c04e2c3fa5267646734aefa8d
             config:
             dataType: TIMESTAMP
             defaultValue: ""
@@ -172,11 +151,11 @@ steps:
                 nodeName: No Source Name
             join:
               joinCondition: FROM {ref(Placeholder-source_storage_location,No Source Name)} "No Source Name"
-            name: DIM_INT_ORDERS__PIVOTED
+            name: DIM_INT_CUSTOMER_ORDER_HISTORY_JOINED
             noLinkRefs: []
-      name: DIM_INT_ORDERS__PIVOTED
+      name: DIM_INT_CUSTOMER_ORDER_HISTORY_JOINED
       overrideSQL: false
       schema: ""
       sqlType: Dimension
       type: sql
-    stepCounter: 1e669fcbad52ef41d9347135a1d1fb8199183dcd646929b632f1b0b68386606f
+    stepCounter: 18c64bd7e19bb7a74b3f9c9dd0f9d34867fe869c04e2c3fa5267646734aefa8d

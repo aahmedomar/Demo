@@ -1,5 +1,5 @@
 steps:
-  FCT_DOCUMENTATION_COVERAGE-c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db:
+  FCT_DOCUMENTATION_COVERAGE-d22ef9a62049447a7ad1b71c610cee4e9c21f78b7245eb01e01914d8889f8aab:
     operation:
       config:
         postSQL: ""
@@ -11,7 +11,7 @@ steps:
       isDataVault: false
       isMultisource: false
       locationName: DEO
-      materializationType: model
+      materializationType: Table
       metadata:
         appliedNodeTests: []
         columns: 
@@ -22,8 +22,8 @@ steps:
             hasNull: true
             isDistinct: false
           columnReference:
-            columnCounter: 58542703189e16d91309b96303c60df920781c7ea64e11311ae6a1cb3a8d5d56
-            stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
+            columnCounter: f8280fe2bbf73b5a1b3b037ee14e8950325df36892f3aca630ec43964d75ba2a
+            stepCounter: d22ef9a62049447a7ad1b71c610cee4e9c21f78b7245eb01e01914d8889f8aab
           dataType: ""
           description: ""
           hashColumns: []
@@ -32,167 +32,7 @@ steps:
           nullable: false
           sourceColumnReferences:
           - columnReferences:
-            - columnCounter: None
-              stepCounter: None
-            transform: "" 
-        - acceptedValues:
-            strictMatch: true
-            values: []
-          appliedColumnTests:
-            hasNull: true
-            isDistinct: false
-          columnReference:
-            columnCounter: fd3bd6015cdd0282acb3db574103b3338e54ce8eace48afd73ad4e1a847e7efc
-            stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
-          dataType: ""
-          description: ""
-          hashColumns: []
-          hashDetails: null
-          name: MEASURED_AT
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: None
-              stepCounter: None
-            transform: "" 
-        - acceptedValues:
-            strictMatch: true
-            values: []
-          appliedColumnTests:
-            hasNull: true
-            isDistinct: false
-          columnReference:
-            columnCounter: 37a3a5e7fc8c311a4d9704967630bc0129a54d75ff90d15198b20f59cdb4b460
-            stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
-          dataType: ""
-          description: ""
-          hashColumns: []
-          hashDetails: null
-          name: TOTAL_MODELS
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: None
-              stepCounter: None
-            transform: "" 
-        - acceptedValues:
-            strictMatch: true
-            values: []
-          appliedColumnTests:
-            hasNull: true
-            isDistinct: false
-          columnReference:
-            columnCounter: f953e5c1fe33420b9f1810da6a538a295ef5978ece9fdc581349cc47511c89ab
-            stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
-          dataType: ""
-          description: ""
-          hashColumns: []
-          hashDetails: null
-          name: DOCUMENTED_MODELS
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: None
-              stepCounter: None
-            transform: "" 
-        - acceptedValues:
-            strictMatch: true
-            values: []
-          appliedColumnTests:
-            hasNull: true
-            isDistinct: false
-          columnReference:
-            columnCounter: d2871a014cacb9dd138fdf87741d48c5a07647ba82ca96020e9118f9982757e0
-            stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
-          dataType: ""
-          description: ""
-          hashColumns: []
-          hashDetails: null
-          name: DOCUMENTATION_COVERAGE_PCT
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: None
-              stepCounter: None
-            transform: "" 
-        - acceptedValues:
-            strictMatch: true
-            values: []
-          appliedColumnTests:
-            hasNull: true
-            isDistinct: false
-          columnReference:
-            columnCounter: 605ec342dc543898ce78a7e70eeb97df717c8f726e9f88ff0b2e4d46e3eea2ed
-            stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
-          dataType: ""
-          description: ""
-          hashColumns: []
-          hashDetails: null
-          name: STAGING_DOCUMENTATION_COVERAGE_PCT
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: None
-              stepCounter: None
-            transform: "" 
-        - acceptedValues:
-            strictMatch: true
-            values: []
-          appliedColumnTests:
-            hasNull: true
-            isDistinct: false
-          columnReference:
-            columnCounter: 533f28c25f4b655eaca40e854952357425135176ba7625519e0b316aa450b581
-            stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
-          dataType: ""
-          description: ""
-          hashColumns: []
-          hashDetails: null
-          name: INTERMEDIATE_DOCUMENTATION_COVERAGE_PCT
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: None
-              stepCounter: None
-            transform: "" 
-        - acceptedValues:
-            strictMatch: true
-            values: []
-          appliedColumnTests:
-            hasNull: true
-            isDistinct: false
-          columnReference:
-            columnCounter: caee1b111431734d259d6d6f8985c6eb396c30f0bd39b0770ca834e7a6625b39
-            stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
-          dataType: ""
-          description: ""
-          hashColumns: []
-          hashDetails: null
-          name: MARTS_DOCUMENTATION_COVERAGE_PCT
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: None
-              stepCounter: None
-            transform: "" 
-        - acceptedValues:
-            strictMatch: true
-            values: []
-          appliedColumnTests:
-            hasNull: true
-            isDistinct: false
-          columnReference:
-            columnCounter: 9302cdceb9f8966758026d3e68615afe952685acacf2f21727728d7cc62dfde5
-            stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
-          dataType: ""
-          description: ""
-          hashColumns: []
-          hashDetails: null
-          name: OTHER_DOCUMENTATION_COVERAGE_PCT
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: None
+            - columnCounter: 4e0a36ace538f61666742f29bdabed7a3eefc5270fa2ac5fceaf3aaee520fbee
               stepCounter: None
             transform: ""
         - acceptedValues:
@@ -200,8 +40,8 @@ steps:
             values: []
           appliedColumnTests:
           columnReference:
-            columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
-            stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
+            columnCounter: 5d2677b5-2b29-48b4-a934-38883308493a
+            stepCounter: d22ef9a62049447a7ad1b71c610cee4e9c21f78b7245eb01e01914d8889f8aab
           config:
           dataType: TIMESTAMP
           defaultValue: ""
@@ -218,8 +58,8 @@ steps:
             values: []
           appliedColumnTests:
           columnReference:
-            columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
-            stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
+            columnCounter: 5d2677b5-2b29-48b4-a934-38883308493a
+            stepCounter: d22ef9a62049447a7ad1b71c610cee4e9c21f78b7245eb01e01914d8889f8aab
           config:
           dataType: TIMESTAMP
           defaultValue: ""
@@ -231,38 +71,6 @@ steps:
           sourceColumnReferences:
           - columnReferences: []
             transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
-        - acceptedValues:
-            strictMatch: false
-            values: []
-          appliedColumnTests:
-          columnReference:
-            columnCounter: cfd6bd03-9b3b-4f64-abf0-808501813d4e
-            stepCounter: a86f7584-202d-4d2d-b638-5448ef0bdc29
-          dataType: NUMBER(12,2)
-          description: ""
-          name: PS_SUPPLYCOST
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: 4ffeb866-ed69-46bc-a17b-514b658768a7
-              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
-            transform: ""
-        - acceptedValues:
-            strictMatch: false
-            values: []
-          appliedColumnTests:
-          columnReference:
-            columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
-            stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
-          dataType: NUMBER(38,0)
-          description: ""
-          name: PS_AVAILQTY
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: b98fb5d0-f185-4803-9cc6-b05173f5cd75
-              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
-            transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
@@ -270,9 +78,9 @@ steps:
             customSQL: ""
           dependencies:
           - locationName: DEO
-            nodeName: RS_3
+            nodeName: CTE_CONVERSION_1
           join:
-            joinCondition: FROM { ref(DEO, RS_3) } "RS_3"
+            joinCondition: FROM { ref(DEO, CTE_CONVERSION_1) } "CTE_CONVERSION_1"
           name: FCT_DOCUMENTATION_COVERAGE
           noLinkRefs: []
       name: FCT_DOCUMENTATION_COVERAGE
@@ -280,4 +88,4 @@ steps:
       schema: ""
       sqlType: Fact
       type: sql
-    stepCounter: c48ca58d2d2022eb9d908546fa2bc8bcdf496b43a2d49b972e2277822984e2db
+    stepCounter: d22ef9a62049447a7ad1b71c610cee4e9c21f78b7245eb01e01914d8889f8aab

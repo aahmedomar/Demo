@@ -1,5 +1,5 @@
 steps:
-  CUSTOMERS-19043c60-5585-49e8-aaf2-4ddd9ff2c597:
+  CUSTOMERS-cb2c4d5dad27100fb249423d5b7bf9aa31b7b6086b2d3a73028d8328dc4d5d01:
     operation:
       database: ""
       dataset: ""
@@ -9,57 +9,6 @@ steps:
       locationName: JAFFLE_SHOP
       metadata:
         columns:
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 38f4c2e1-e6f9-4131-8201-fa3fda4a39d5
-              stepCounter: 19043c60-5585-49e8-aaf2-4ddd9ff2c597
-            config: 
-            dataType: 
-            defaultValue: ""
-            description: ""
-            name: FIRST_NAME
-            nullable: false
-            primaryKey: false
-            uniqueKey: false
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 96efeb77-a762-4b49-962e-7d3922109375
-              stepCounter: 19043c60-5585-49e8-aaf2-4ddd9ff2c597
-            config: 
-            dataType: 
-            defaultValue: ""
-            description: ""
-            name: ID
-            nullable: false
-            primaryKey: false
-            uniqueKey: false
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 3e85d033-3e06-45e2-9e9d-139906f4df0d
-              stepCounter: 19043c60-5585-49e8-aaf2-4ddd9ff2c597
-            config: 
-            dataType: 
-            defaultValue: ""
-            description: ""
-            name: LAST_NAME
-            nullable: false
-            primaryKey: false
-            uniqueKey: false
         join:
           joinCondition: FROM { ref(f'JAFFLE_SHOP', 'CUSTOMERS') }
       name: CUSTOMERS
@@ -67,4 +16,4 @@ steps:
       sqlType: Source
       table: CUSTOMERS
       type: sourceInput
-    stepCounter: 19043c60-5585-49e8-aaf2-4ddd9ff2c597
+    stepCounter: cb2c4d5dad27100fb249423d5b7bf9aa31b7b6086b2d3a73028d8328dc4d5d01

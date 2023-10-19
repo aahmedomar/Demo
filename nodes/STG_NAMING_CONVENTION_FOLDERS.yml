@@ -1,5 +1,5 @@
 steps:
-  STG_NAMING_CONVENTION_FOLDERS-1504fc209041016c6ceadd1c449cd013d16ef626738ba9d6c0610e8b0a4702ab:
+  STG_NAMING_CONVENTION_FOLDERS-184e80e0a478ee4783c973efbf9da9a9ce49bb1d31d9e1187ef259d210374336:
     operation:
       config:
         insertStrategy: INSERT
@@ -24,8 +24,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 3373b80ddfb93c9ac02d027397a7bc8108c09e28800e5ba1f5ca074f5030451f
-              stepCounter: 1504fc209041016c6ceadd1c449cd013d16ef626738ba9d6c0610e8b0a4702ab
+              columnCounter: 2a6fe08a4b48b67ce37668f29bfeb61b0e36505178f678df74d4c522aced3c00
+              stepCounter: 184e80e0a478ee4783c973efbf9da9a9ce49bb1d31d9e1187ef259d210374336
             dataType: ""
             description: ""
             hashColumns: []
@@ -44,33 +44,13 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: a8dbe4aea51a7689c79aa1f5c0fc86be25db8df5af3cbce248b3e6d63c6ba328
-              stepCounter: 1504fc209041016c6ceadd1c449cd013d16ef626738ba9d6c0610e8b0a4702ab
+              columnCounter: b84d7515fdcef56f638a5f1f458370746b61026ee29687dea99b0de20d139c5d
+              stepCounter: 184e80e0a478ee4783c973efbf9da9a9ce49bb1d31d9e1187ef259d210374336
             dataType: ""
             description: ""
             hashColumns: []
             hashDetails: null
             name: MODEL_TYPE
-            nullable: false
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: No source_counter
-                    stepCounter: No Source Step id
-                transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: ce07fe9cad9d00ad240b30323ee3ff994de9fdd786b3c9a46f1f923a3b3636a5
-              stepCounter: 1504fc209041016c6ceadd1c449cd013d16ef626738ba9d6c0610e8b0a4702ab
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: FOLDER_NAME
             nullable: false
             sourceColumnReferences:
               - columnReferences:
@@ -93,4 +73,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 1504fc209041016c6ceadd1c449cd013d16ef626738ba9d6c0610e8b0a4702ab
+    stepCounter: 184e80e0a478ee4783c973efbf9da9a9ce49bb1d31d9e1187ef259d210374336

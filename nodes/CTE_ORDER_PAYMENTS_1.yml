@@ -1,5 +1,5 @@
 steps:
-  CTE_ORDER_PAYMENTS_1-f1cdd946e64d2e9c2d5b8e9757b9abd9729ebd1def19387f98ea237f6ad5cf01:
+  CTE_ORDER_PAYMENTS_1-60d01d83b3c857a2adf514d8925394a7f6a10966b5922cdee838b280448dbe79:
     operation:
       config:
         insertStrategy: INSERT
@@ -29,8 +29,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: af5b1ae9e30fef94d9bc4d1aeeec627efd5a9bb01a021f52383f9c06939c6b2b
-              stepCounter: f1cdd946e64d2e9c2d5b8e9757b9abd9729ebd1def19387f98ea237f6ad5cf01
+              columnCounter: 592fb8b12c292a6bd3a4484ca3f74ced7b4027471d23a4728ba302b8182bb892
+              stepCounter: 60d01d83b3c857a2adf514d8925394a7f6a10966b5922cdee838b280448dbe79
             dataType: ""
             description: ""
             hashColumns: []
@@ -39,8 +39,8 @@ steps:
             nullable: false
             sourceColumnReferences:
             - columnReferences:
-              - columnCounter: 26e0e15b8d892a5ae5136f583e83c11f40cf762d85f84c6976b013625229a074
-                stepCounter: bc71d8fe2c49eef1d4620afca12ca6e3fb7f2ecd4579d50cf290c532e3c5b8c9
+              - columnCounter: f52d6db99af544b1b45089ca7dc8f4a1ec6f912f51602c5f63b468fa20175a94
+                stepCounter: None
               transform: ""
           - acceptedValues:
               strictMatch: true
@@ -49,8 +49,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: df1b7fd4ddbe985a5129a0b862809bb570376368a9046e3e022b8e12a7e95ec0
-              stepCounter: f1cdd946e64d2e9c2d5b8e9757b9abd9729ebd1def19387f98ea237f6ad5cf01
+              columnCounter: a6c27f009a78d0d7a588beae73330bf3630b94686f2b85ce3d05bfd0898ff214
+              stepCounter: 60d01d83b3c857a2adf514d8925394a7f6a10966b5922cdee838b280448dbe79
             dataType: ""
             description: ""
             hashColumns: []
@@ -59,8 +59,8 @@ steps:
             nullable: false
             sourceColumnReferences:
             - columnReferences:
-              - columnCounter: fb333309b9c48e6458964718fcc2c986e791a9d2a44a9f2daad0da7ee44182fb
-                stepCounter: bc71d8fe2c49eef1d4620afca12ca6e3fb7f2ecd4579d50cf290c532e3c5b8c9
+              - columnCounter: 6663dbb4cfe25c2846685c0519fa2ec2328938a85729401c5de28cb511936ce7
+                stepCounter: None
               transform: ""
         enabledColumnTestIDs: []
         sourceMapping:
@@ -68,9 +68,9 @@ steps:
               customSQL: ""
             dependencies:
               - locationName: DEO
-                nodeName: RS_3
+                nodeName: FCT_ORDERS_RS_3
             join:
-                joinCondition:FROM{ref(DEO,RS_3)} "RS_3"
+                joinCondition:FROM{ref(DEO,FCT_ORDERS_RS_3)} "FCT_ORDERS_RS_3"
             name: CTE_ORDER_PAYMENTS_1
             noLinkRefs: []
       name: CTE_ORDER_PAYMENTS_1
@@ -78,4 +78,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: f1cdd946e64d2e9c2d5b8e9757b9abd9729ebd1def19387f98ea237f6ad5cf01
+    stepCounter: 60d01d83b3c857a2adf514d8925394a7f6a10966b5922cdee838b280448dbe79

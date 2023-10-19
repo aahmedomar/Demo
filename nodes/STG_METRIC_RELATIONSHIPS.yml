@@ -1,5 +1,5 @@
 steps:
-  STG_METRIC_RELATIONSHIPS-3ce2b5eda256d44b5b7642530caf0a272b7d63e1a767534ba8956d89422a78b3:
+  STG_METRIC_RELATIONSHIPS-0d87f5b8a0e893bad4f5bf42d8fbedeb9e90537c8c2410c58c8c38d93396b4dc:
     operation:
       config:
         insertStrategy: INSERT
@@ -24,8 +24,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 59277c2e8b9b582dde93da3f7c0d81f6c9f0f5ef324779abec9a447ab7316b50
-              stepCounter: 3ce2b5eda256d44b5b7642530caf0a272b7d63e1a767534ba8956d89422a78b3
+              columnCounter: 3c56e4509f0dbf659a437532f011f43ce300f16a5c8b50432454fdaa8708b25c
+              stepCounter: 0d87f5b8a0e893bad4f5bf42d8fbedeb9e90537c8c2410c58c8c38d93396b4dc
             dataType: ""
             description: ""
             hashColumns: []
@@ -44,8 +44,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 079fef1ee0c1bee5646ea3df193334d4b0583f6b25a0c0ac3cef0e8517830822
-              stepCounter: 3ce2b5eda256d44b5b7642530caf0a272b7d63e1a767534ba8956d89422a78b3
+              columnCounter: 5e5cb5da9f432b4f1af4fba5784fa0e67dd634e23bf96bc466d1cdbf19beba5e
+              stepCounter: 0d87f5b8a0e893bad4f5bf42d8fbedeb9e90537c8c2410c58c8c38d93396b4dc
             dataType: ""
             description: ""
             hashColumns: []
@@ -64,33 +64,13 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: fcbba7ade54181ac14ce224d1a71abad39f5ff7e860b85f0342e03cd89bd1a8a
-              stepCounter: 3ce2b5eda256d44b5b7642530caf0a272b7d63e1a767534ba8956d89422a78b3
+              columnCounter: ff5362072940b1b3c9effc23b8827bc099519a573d32243c9313f2aa55e6f1f0
+              stepCounter: 0d87f5b8a0e893bad4f5bf42d8fbedeb9e90537c8c2410c58c8c38d93396b4dc
             dataType: ""
             description: ""
             hashColumns: []
             hashDetails: null
             name: RESOURCE_ID
-            nullable: false
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: No source_counter
-                    stepCounter: No Source Step id
-                transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 04f913ffa61e13c07d2f615b80038d6c2df80cf92f64e4689c7dc1d1bdc8061e
-              stepCounter: 3ce2b5eda256d44b5b7642530caf0a272b7d63e1a767534ba8956d89422a78b3
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: UNIQUE_ID
             nullable: false
             sourceColumnReferences:
               - columnReferences:
@@ -113,4 +93,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 3ce2b5eda256d44b5b7642530caf0a272b7d63e1a767534ba8956d89422a78b3
+    stepCounter: 0d87f5b8a0e893bad4f5bf42d8fbedeb9e90537c8c2410c58c8c38d93396b4dc

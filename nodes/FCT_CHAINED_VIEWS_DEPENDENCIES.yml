@@ -1,5 +1,5 @@
 steps:
-  FCT_CHAINED_VIEWS_DEPENDENCIES-5a8d4c5fb971945d1b9481cde9a76ad6ddd43b83effbd30dc3d3094a4cd29b06:
+  FCT_CHAINED_VIEWS_DEPENDENCIES-c0eb200407444cd51c6b8c4d4dfd206e3af6103fe68e2d3c58ef66ab8e8fb51b:
     operation:
       config:
         postSQL: ""
@@ -11,7 +11,7 @@ steps:
       isDataVault: false
       isMultisource: false
       locationName: DEO
-      materializationType: model
+      materializationType: Table
       metadata:
         appliedNodeTests: []
         columns: 
@@ -22,8 +22,8 @@ steps:
             hasNull: true
             isDistinct: false
           columnReference:
-            columnCounter: 1a34ea6e798d8676300e9d6d71b11210ccb8b0bbd06fd33ffb8052e335583754
-            stepCounter: 5a8d4c5fb971945d1b9481cde9a76ad6ddd43b83effbd30dc3d3094a4cd29b06
+            columnCounter: ad0dccd3c600d5c9166b21ab77b1ca04bc497aca417edd1c821f3c3734fe6dfb
+            stepCounter: c0eb200407444cd51c6b8c4d4dfd206e3af6103fe68e2d3c58ef66ab8e8fb51b
           dataType: ""
           description: ""
           hashColumns: []
@@ -32,87 +32,7 @@ steps:
           nullable: false
           sourceColumnReferences:
           - columnReferences:
-            - columnCounter: None
-              stepCounter: None
-            transform: "" 
-        - acceptedValues:
-            strictMatch: true
-            values: []
-          appliedColumnTests:
-            hasNull: true
-            isDistinct: false
-          columnReference:
-            columnCounter: d935b4e1a218e5f57decf9f9d23f8ff09ee01840d59a9230051cbb18607c92de
-            stepCounter: 5a8d4c5fb971945d1b9481cde9a76ad6ddd43b83effbd30dc3d3094a4cd29b06
-          dataType: ""
-          description: ""
-          hashColumns: []
-          hashDetails: null
-          name: PARENT
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: None
-              stepCounter: None
-            transform: "" 
-        - acceptedValues:
-            strictMatch: true
-            values: []
-          appliedColumnTests:
-            hasNull: true
-            isDistinct: false
-          columnReference:
-            columnCounter: 39e3d850154f370589897c168b0d23d6907e95e3411cf1f5bce594e141b8be88
-            stepCounter: 5a8d4c5fb971945d1b9481cde9a76ad6ddd43b83effbd30dc3d3094a4cd29b06
-          dataType: ""
-          description: ""
-          hashColumns: []
-          hashDetails: null
-          name: CHILD
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: None
-              stepCounter: None
-            transform: "" 
-        - acceptedValues:
-            strictMatch: true
-            values: []
-          appliedColumnTests:
-            hasNull: true
-            isDistinct: false
-          columnReference:
-            columnCounter: 95a23dada80e5a5dd1275506a7227113e2c1556c0d442b7981024a5f1a118a42
-            stepCounter: 5a8d4c5fb971945d1b9481cde9a76ad6ddd43b83effbd30dc3d3094a4cd29b06
-          dataType: ""
-          description: ""
-          hashColumns: []
-          hashDetails: null
-          name: DISTANCE
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: None
-              stepCounter: None
-            transform: "" 
-        - acceptedValues:
-            strictMatch: true
-            values: []
-          appliedColumnTests:
-            hasNull: true
-            isDistinct: false
-          columnReference:
-            columnCounter: d511c98b3ede45a1056d920c421a313a1a525897792f1b20ad344d848761b267
-            stepCounter: 5a8d4c5fb971945d1b9481cde9a76ad6ddd43b83effbd30dc3d3094a4cd29b06
-          dataType: ""
-          description: ""
-          hashColumns: []
-          hashDetails: null
-          name: PATH
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: None
+            - columnCounter: bc1a6b7077c11e9676de39410dd5fb04cfa3a9cdcbe78037886a959e6b162993
               stepCounter: None
             transform: ""
         - acceptedValues:
@@ -120,8 +40,8 @@ steps:
             values: []
           appliedColumnTests:
           columnReference:
-            columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
-            stepCounter: 5a8d4c5fb971945d1b9481cde9a76ad6ddd43b83effbd30dc3d3094a4cd29b06
+            columnCounter: 5d2677b5-2b29-48b4-a934-38883308493a
+            stepCounter: c0eb200407444cd51c6b8c4d4dfd206e3af6103fe68e2d3c58ef66ab8e8fb51b
           config:
           dataType: TIMESTAMP
           defaultValue: ""
@@ -138,8 +58,8 @@ steps:
             values: []
           appliedColumnTests:
           columnReference:
-            columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
-            stepCounter: 5a8d4c5fb971945d1b9481cde9a76ad6ddd43b83effbd30dc3d3094a4cd29b06
+            columnCounter: 5d2677b5-2b29-48b4-a934-38883308493a
+            stepCounter: c0eb200407444cd51c6b8c4d4dfd206e3af6103fe68e2d3c58ef66ab8e8fb51b
           config:
           dataType: TIMESTAMP
           defaultValue: ""
@@ -151,38 +71,6 @@ steps:
           sourceColumnReferences:
           - columnReferences: []
             transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
-        - acceptedValues:
-            strictMatch: false
-            values: []
-          appliedColumnTests:
-          columnReference:
-            columnCounter: cfd6bd03-9b3b-4f64-abf0-808501813d4e
-            stepCounter: a86f7584-202d-4d2d-b638-5448ef0bdc29
-          dataType: NUMBER(12,2)
-          description: ""
-          name: PS_SUPPLYCOST
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: 4ffeb866-ed69-46bc-a17b-514b658768a7
-              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
-            transform: ""
-        - acceptedValues:
-            strictMatch: false
-            values: []
-          appliedColumnTests:
-          columnReference:
-            columnCounter: 0c0407fc-9470-4715-922a-5f12172a19a8
-            stepCounter: 5a8d4c5fb971945d1b9481cde9a76ad6ddd43b83effbd30dc3d3094a4cd29b06
-          dataType: NUMBER(38,0)
-          description: ""
-          name: PS_AVAILQTY
-          nullable: false
-          sourceColumnReferences:
-          - columnReferences:
-            - columnCounter: b98fb5d0-f185-4803-9cc6-b05173f5cd75
-              stepCounter: 88477f46-900d-407f-b8e8-20a02bd341e3
-            transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
@@ -190,9 +78,9 @@ steps:
             customSQL: ""
           dependencies:
           - locationName: DEO
-            nodeName: RS_3
+            nodeName: FCT_CHAINED_VIEWS_DEPENDENCIES_RS_3
           join:
-            joinCondition: FROM { ref(DEO, RS_3) } "RS_3"
+            joinCondition: FROM { ref(DEO, FCT_CHAINED_VIEWS_DEPENDENCIES_RS_3) } "FCT_CHAINED_VIEWS_DEPENDENCIES_RS_3"
           name: FCT_CHAINED_VIEWS_DEPENDENCIES
           noLinkRefs: []
       name: FCT_CHAINED_VIEWS_DEPENDENCIES
@@ -200,4 +88,4 @@ steps:
       schema: ""
       sqlType: Fact
       type: sql
-    stepCounter: 5a8d4c5fb971945d1b9481cde9a76ad6ddd43b83effbd30dc3d3094a4cd29b06
+    stepCounter: c0eb200407444cd51c6b8c4d4dfd206e3af6103fe68e2d3c58ef66ab8e8fb51b

@@ -1,5 +1,5 @@
 steps:
-  CTE_PAYMENTS_1-96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e:
+  CTE_PAYMENTS_1-d21180246c04883cd22c96ac651b2010b1e187472076eb485a00407ae0b210da:
     operation:
       config:
         insertStrategy: INSERT
@@ -29,8 +29,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: f6cb426dbacb042d28b5ee7c67022006eeaabc6ab20a56e4fac801c3bfd4fd67
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
+              columnCounter: 9e0380d3a0786aa97ad13d2088873efdf939e59a8c68a8c72f74a4ceea90ddb1
+              stepCounter: d21180246c04883cd22c96ac651b2010b1e187472076eb485a00407ae0b210da
             dataType: ""
             description: ""
             hashColumns: []
@@ -39,8 +39,8 @@ steps:
             nullable: false
             sourceColumnReferences:
             - columnReferences:
-              - columnCounter: 5aa4ab8933a583eeafc11fcf1aeebb69d03f981024f22842a6191644ed146aef
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
+              - columnCounter: 4e0342aa1b875ee41866621f830562dbf7f803147cd6ed120392b4e85bc21630
+                stepCounter: None
               transform: ""
           - acceptedValues:
               strictMatch: true
@@ -49,8 +49,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: 1a35a4db71e91fd97dd98a368010bc5ba19bbf9fa9c20f95eb0aac5b31a3f2c7
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
+              columnCounter: ac7359ad3c571190cb941a4ab8b72f6ddfc6d45f8972b3c2aea8343c26fd0f82
+              stepCounter: d21180246c04883cd22c96ac651b2010b1e187472076eb485a00407ae0b210da
             dataType: ""
             description: ""
             hashColumns: []
@@ -59,8 +59,8 @@ steps:
             nullable: false
             sourceColumnReferences:
             - columnReferences:
-              - columnCounter: 73deef82b466d43c3f5425c9a71127d78cf88d2d78ae54db662ec5ec568fd26b
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
+              - columnCounter: e2d270f879cfc2eb1c69d57889b9a6a30b6fca5e18187fbb94d06a57e780f601
+                stepCounter: None
               transform: ""
           - acceptedValues:
               strictMatch: true
@@ -69,8 +69,8 @@ steps:
               hasNull: true
               isDistinct: false
             columnReference:
-              columnCounter: f98ddcca2aea70d3350ee341cd5a11ac52887346c90ed9d35500862f7ae496f8
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
+              columnCounter: b46ebaa64cf0458a37574bb9a32998c675656d761c21dd73a7b9bbb927ee1ac2
+              stepCounter: d21180246c04883cd22c96ac651b2010b1e187472076eb485a00407ae0b210da
             dataType: ""
             description: ""
             hashColumns: []
@@ -79,268 +79,8 @@ steps:
             nullable: false
             sourceColumnReferences:
             - columnReferences:
-              - columnCounter: 7996dd05e909012241909ffbefffd1c20084c1e13769b52e84caaf1fe5de2a74
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: cb64caa6f327a5f6cd5be8b0f0b36b764ed1244ef6ec9b1f85c74fd2bf41e78a
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: AMOUNT
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: 5aa4ab8933a583eeafc11fcf1aeebb69d03f981024f22842a6191644ed146aef
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 7f183cf7f780b9c53a01c17f62226be0c87f781ad345b8235d6fea9c8aa87178
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: CREATED_AT
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: 3f88b317596de0f95f6f5b05e75b4df075f636cd2909f6ed300a52b2ca6b1677
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 2947f89dd417fc367c116219f2018e032580c2aaa3051f7f857346c0d010be96
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: ORDER_ID
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: 73deef82b466d43c3f5425c9a71127d78cf88d2d78ae54db662ec5ec568fd26b
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: b708426ea5771f495f6e55ffaa3e09998e49bf382bae07b57aa981b5e0697ef9
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: STATUS
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: 7996dd05e909012241909ffbefffd1c20084c1e13769b52e84caaf1fe5de2a74
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 7853db9cf2671d0f3ecbe813400480cc611a44217e77132cedaab0b0ad2353d8
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: AMOUNT
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: 5aa4ab8933a583eeafc11fcf1aeebb69d03f981024f22842a6191644ed146aef
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: c8577e0466f9cfb773024061b9e6d1370d441c603764073c2789e96017542ae4
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: ORDER_ID
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: 73deef82b466d43c3f5425c9a71127d78cf88d2d78ae54db662ec5ec568fd26b
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: c040a9e22bb732a8a56117a001b7f71d136e85d593c765b80543bc19c1c1b496
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: PAYMENT_METHOD
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: None
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: e13a039de546fe73cad1b4d8d69f7051a9557a44c06a23036915b89e85590d45
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: AMOUNT
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: 5aa4ab8933a583eeafc11fcf1aeebb69d03f981024f22842a6191644ed146aef
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 53e1a0644472695309f886907710bb9077076eb1c39d414fa6f6c98c4dab1318
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: CREATED_AT
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: 3f88b317596de0f95f6f5b05e75b4df075f636cd2909f6ed300a52b2ca6b1677
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: bce83b1076a44bd2fc48a06bcfee0ab0ae5f2ae21f38b1de67e084fa799149c3
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: ORDER_ID
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: 73deef82b466d43c3f5425c9a71127d78cf88d2d78ae54db662ec5ec568fd26b
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 32367b7061ae215b89610557969459e8906b37fa9053522057352b72a2321e6c
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: PAYMENT_ID
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: None
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 8c5d1de0547208beaa95b9051c89cea3cffa506ae83265a7d79c273dd26ed8a7
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: PAYMENT_METHOD
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: None
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
-              transform: ""
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests:
-              hasNull: true
-              isDistinct: false
-            columnReference:
-              columnCounter: 32c1a5e1b412e18366513b353e93cbf72570e605fa7dc4841b84f65fc894110d
-              stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
-            dataType: ""
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            name: STATUS
-            nullable: false
-            sourceColumnReferences:
-            - columnReferences:
-              - columnCounter: 7996dd05e909012241909ffbefffd1c20084c1e13769b52e84caaf1fe5de2a74
-                stepCounter: 4075124b2ec1dd57860e4a3c71b12bfb1d0a16de29a92d3891e39dc1391bc7d3
+              - columnCounter: 87c6aa2bbe6f74c3fb479a72e943f8e6547d2c72ac4801fbbe0f9d184b4f7aa9
+                stepCounter: None
               transform: ""
         enabledColumnTestIDs: []
         sourceMapping:
@@ -348,9 +88,9 @@ steps:
               customSQL: ""
             dependencies:
               - locationName: DEO
-                nodeName: RS_2
+                nodeName: FCT_ORDERS_RS_2
             join:
-                joinCondition:FROM{ref(DEO,RS_2)} "RS_2"
+                joinCondition:FROM{ref(DEO,FCT_ORDERS_RS_2)} "FCT_ORDERS_RS_2"
             name: CTE_PAYMENTS_1
             noLinkRefs: []
       name: CTE_PAYMENTS_1
@@ -358,4 +98,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 96883a2c1b3eaf19bee4c295819f2efc96874549d363ec78ab1de4d2eb4c297e
+    stepCounter: d21180246c04883cd22c96ac651b2010b1e187472076eb485a00407ae0b210da
